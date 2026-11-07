@@ -2,7 +2,7 @@
    install: precaches the page, the encrypted content of this build, the manifest and the icons, so one visit online is enough.
    page: network first (updates arrive when online) with a short timeout, cached copy as fallback; everything else: cache first. */
 const CACHE = 'itqan-v1';
-const STAMP = '20261107122118-a7e7e820';
+const STAMP = '20261107123651-9f4838fd';
 const PRECACHE = ['./', './index.html', `./data.bin?v=${STAMP}`, './manifest.webmanifest', './icon-192.png', './icon-512.png'];
 const PAGE_TIMEOUT = 6000;
 self.addEventListener('install', e => {

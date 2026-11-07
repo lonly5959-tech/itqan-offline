@@ -1,4 +1,4 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="itqan-offline-copy" content="2026-11-07T12:21:18.761479+00:00"><link rel="manifest" href="manifest.webmanifest"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><style>*,*::before,*::after{box-sizing:border-box}body{margin:0}</style></head><body><title>إتقان — الرخصة المهنية التربوي العام</title>
+<!doctype html><html><head><meta charset="utf-8"><meta name="itqan-offline-copy" content="2026-11-07T12:36:52.194608+00:00"><link rel="manifest" href="manifest.webmanifest"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><style>*,*::before,*::after{box-sizing:border-box}body{margin:0}</style></head><body><title>إتقان — الرخصة المهنية التربوي العام</title>
 <meta name="description" content="منصة إتقان الشخصية للاستعداد للاختبار التربوي العام للرخصة المهنية">
 <meta name="theme-color" content="#3245A6">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -1082,7 +1082,7 @@ hr.sep{border:0;border-top:1px solid var(--rule);margin:6px 0}
 <nav class="nav" aria-label="التنقل الرئيسي"><div class="wrap" id="nav"></div></nav>
 <div id="sheetRoot"></div>
 <div id="toastRoot"></div>
-<script type="application/json" id="content" data-enc="data.bin?v=20261107122118-a7e7e820" data-build="20261107122118-a7e7e820">null</script>
+<script type="application/json" id="content" data-enc="data.bin?v=20261107123651-9f4838fd" data-build="20261107123651-9f4838fd">null</script>
 <script>(async function(){
 /* ---- 01_core.js ---- */
 'use strict';
@@ -1095,6 +1095,8 @@ async function itqanUnlock(el) {
   const show = h => { if (view) view.innerHTML = h; };
   const msg = t => show('<div class="empty"><p>' + t + '</p></div>');
   msg('جارٍ تحميل المحتوى…');
+  /* start the offline worker at once: it precaches the page and the encrypted file while the password is being typed */
+  try { if ('serviceWorker' in navigator && window.isSecureContext) navigator.serviceWorker.register(new URL('sw.js', location.href).href).catch(() => { }); } catch (e) { }
   const url = new URL(el.dataset.enc, location.href).href;
   let buf;
   try {
