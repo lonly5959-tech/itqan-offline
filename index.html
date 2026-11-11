@@ -1,4 +1,4 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="itqan-offline-copy" content="2026-11-07T12:36:52.194608+00:00"><link rel="manifest" href="manifest.webmanifest"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><style>*,*::before,*::after{box-sizing:border-box}body{margin:0}</style></head><body><title>إتقان — الرخصة المهنية التربوي العام</title>
+<!doctype html><html><head><meta charset="utf-8"><meta name="itqan-offline-copy" content="2026-11-11T19:22:21.557643+00:00"><link rel="manifest" href="manifest.webmanifest"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><style>*,*::before,*::after{box-sizing:border-box}body{margin:0}</style></head><body><title>إتقان — الرخصة المهنية التربوي العام</title>
 <meta name="description" content="منصة إتقان الشخصية للاستعداد للاختبار التربوي العام للرخصة المهنية">
 <meta name="theme-color" content="#3245A6">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -1069,6 +1069,72 @@ details.std[open] > summary{border-bottom:1px dashed var(--rule)}
 hr.sep{border:0;border-top:1px solid var(--rule);margin:6px 0}
 @media (max-width:430px){.kpis{grid-template-columns:repeat(3,minmax(0,1fr))}.kpi b{font-size:19px}.h1{font-size:23px}.q-stem{font-size:17px}.dg-domains{gap:6px}.dgd{padding:10px 6px}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+/* ==== v8: quick retrieval (04g_keep.js), help on a step, memory keys, lesson summary (04h_aids.js) ==== */
+details.kx > .kx-b{padding:0 14px 14px}
+.kp-dots{display:flex;flex-wrap:wrap;gap:6px;margin-top:2px}
+.kp-dots i{display:block;width:22px;height:6px;border-radius:3px;background:var(--rule)}
+.kp-dots i.c{background:var(--accent);box-shadow:0 0 0 2px var(--accent-soft)}
+.kp-dots i.ok{background:var(--ok)}
+.kp-dots i.no{background:var(--pen)}
+.kp-from{margin:0}
+.kp-step > summary .tiny{margin-inline-start:auto}
+.kp-warm .hero .btn.ghost{width:100%;justify-content:center}
+.kp-warm .hero .eyebrow svg{width:16px;height:16px;vertical-align:-3px}
+.kp-line{align-items:center}
+.kp-tick{display:grid;place-items:center;width:26px;height:26px;flex:none;color:var(--ink-3)}
+.kp-tick svg{width:21px;height:21px}
+.kp-tick.ok{color:var(--ok)}
+.kp-ready .li{min-height:48px;padding-block:10px}
+.kp-end .list .li .t{white-space:normal}
+.cs-wk{color:var(--pen);font-weight:600}
+.cs-fx{color:var(--ok);font-weight:600}
+.cs-help > .row{gap:6px}
+.cs-help .chip.tog{min-height:36px;padding-inline:11px;font-size:13px}
+.cs-help .chip.tog svg{width:14px;height:14px}
+.cs-helprv > summary{cursor:pointer;color:var(--accent);font-weight:600;min-height:32px}
+.cs-box.memo{border-color:color-mix(in oklab,var(--warn) 45%,var(--rule));background:color-mix(in oklab,var(--warn) 7%,var(--sheet))}
+.cs-box.memo .cs-box-h{color:var(--warn)}
+.mm-key{font-weight:600}
+.mm-mn{margin-top:8px;padding:10px 12px;border-radius:var(--r-m);background:var(--sheet);border:1px dashed color-mix(in oklab,var(--warn) 50%,var(--rule));display:flex;flex-direction:column;gap:4px}
+.mm-mn b{font-family:var(--f-read);font-size:18px;line-height:1.9}
+.mm-mn span{font-size:13.5px;line-height:1.8;color:var(--ink-2)}
+.mm-img{display:flex;gap:8px;align-items:flex-start;margin-top:8px;font-size:14px;line-height:1.8;color:var(--ink-2)}
+.mm-img svg{width:18px;height:18px;flex:none;margin-top:4px;color:var(--warn)}
+.mm-line{display:flex;gap:8px;align-items:flex-start;padding:8px 12px;border-radius:var(--r-m);background:color-mix(in oklab,var(--warn) 7%,var(--sheet));border:1px solid color-mix(in oklab,var(--warn) 35%,var(--rule));font-size:14.5px;line-height:1.8}
+.mm-line svg{width:17px;height:17px;flex:none;margin-top:5px;color:var(--warn)}
+.ls-actions .btn svg{width:16px;height:16px}
+.ls-idea{display:flex;flex-direction:column;gap:12px;padding-top:18px;border-top:2px solid var(--rule)}
+.ls-h{display:flex;align-items:center;gap:10px}
+.ls-h .h2{flex:1;min-width:0}
+.ls-n{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--accent);color:var(--on-accent);font-weight:700;flex:none}
+.ls-n svg{width:17px;height:17px}
+.ls-plain{margin:0;font-size:17.5px}
+.ls-sum{margin:0;padding-inline-start:22px;font-size:16.5px;line-height:1.9}
+.ls-sum li::marker{color:var(--accent)}
+.ls-note{display:flex;gap:10px;align-items:flex-start;padding:10px 12px;border-radius:var(--r-m);font-size:14.5px;line-height:1.85;border:1px solid var(--rule);background:var(--sheet)}
+.ls-note svg{width:18px;height:18px;flex:none;margin-top:4px}
+.ls-note.pen{border-color:color-mix(in oklab,var(--pen) 35%,var(--rule));background:color-mix(in oklab,var(--pen) 5%,var(--sheet))}
+.ls-note.pen svg{color:var(--pen)}
+.ls-note.teal{border-color:color-mix(in oklab,var(--teal) 35%,var(--rule));background:color-mix(in oklab,var(--teal) 5%,var(--sheet))}
+.ls-note.teal svg{color:var(--teal)}
+.ls-card{border:1.5px dashed var(--rule-2);border-radius:var(--r-m);padding:10px 14px;background:var(--sheet-2)}
+.ls-card > summary{cursor:pointer;display:flex;flex-direction:column;gap:2px;list-style:none;min-height:44px;justify-content:center}
+.ls-card > summary::-webkit-details-marker{display:none}
+.ls-card > summary b{font-family:var(--f-read);font-size:16.5px;line-height:1.8}
+.ls-back{margin-top:8px;padding-top:8px;border-top:1px solid var(--rule)}
+.ls-back .cd-list{font-size:16px}
+.er-row{display:flex;flex-direction:column;gap:6px;padding:10px 0;border-bottom:1px solid var(--rule)}
+.er-row:last-child{border-bottom:0}
+.er-row .t{font-weight:600}
+.er-row .s{font-size:12.5px;color:var(--ink-3)}
+.er-row .btns{padding-inline-start:40px}
+.notice .btn svg{color:inherit;margin-top:0}
+.step.optional .k{border-style:dashed;color:var(--ink-3)}
+.step.optional .t{font-weight:600;color:var(--ink-2)}
+.step.optional .t .chip{font-size:11px;padding:1px 8px;margin-inline-end:4px}
+/* icons that lead or end a list row had no size and collapsed to nothing */
+.li > span:not(.chip) > svg{display:block;width:20px;height:20px;flex:none}
+/* ==== /v8 ==== */
 </style>
 
 <header class="top"><div class="wrap">
@@ -1082,7 +1148,7 @@ hr.sep{border:0;border-top:1px solid var(--rule);margin:6px 0}
 <nav class="nav" aria-label="التنقل الرئيسي"><div class="wrap" id="nav"></div></nav>
 <div id="sheetRoot"></div>
 <div id="toastRoot"></div>
-<script type="application/json" id="content" data-enc="data.bin?v=20261107123651-9f4838fd" data-build="20261107123651-9f4838fd">null</script>
+<script type="application/json" id="content" data-enc="data-20261111192221-c209bd3f.bin" data-build="20261111192221-c209bd3f">null</script>
 <script>(async function(){
 /* ---- 01_core.js ---- */
 'use strict';
@@ -1090,6 +1156,7 @@ hr.sep{border:0;border-top:1px solid var(--rule);margin:6px 0}
 /* encrypted hosted copy (the iPhone version): content and progress are AES-GCM encrypted with a key derived from the learner's password
    (PBKDF2-SHA-256). data file = 'ITQ1' | iterations (uint32 BE) | salt (16) | iv (12) | ciphertext+tag. The derived key (never the password)
    is remembered on this device so the password is typed once. */
+let ITQAN_STALE = false;   /* the hosted copy opened with the content of an earlier build because the new one is not downloaded yet */
 async function itqanUnlock(el) {
   const view = document.getElementById('view');
   const show = h => { if (view) view.innerHTML = h; };
@@ -1098,14 +1165,19 @@ async function itqanUnlock(el) {
   /* start the offline worker at once: it precaches the page and the encrypted file while the password is being typed */
   try { if ('serviceWorker' in navigator && window.isSecureContext) navigator.serviceWorker.register(new URL('sw.js', location.href).href).catch(() => { }); } catch (e) { }
   const url = new URL(el.dataset.enc, location.href).href;
-  let buf;
+  let buf = null;
+  const read = async r => new Uint8Array(await r.arrayBuffer());
   try {
-    let r = null;
-    try { r = await fetch(url); } catch (e) { r = null; }
-    if ((!r || !r.ok) && window.caches) r = await caches.match(url, { ignoreSearch: true }) || r;
-    if (!r || !r.ok) throw new Error('fetch');
-    buf = new Uint8Array(await r.clone().arrayBuffer());
-    try { if (window.caches && window.isSecureContext) { const c = await caches.open('itqan-v1'); if (!(await c.match(url))) await c.put(url, new Response(buf.slice(0), { headers: { 'content-type': 'application/octet-stream' } })); } } catch (e) { }
+    try { const r = await fetch(url); if (r && r.ok) buf = await read(r); } catch (e) { buf = null; }   /* a download cut half-way counts as not received */
+    if (!buf && window.caches) { const r = await caches.match(url, { ignoreSearch: true }); if (r) buf = await read(r); }
+    /* an update whose content did not finish downloading: open with the content of the build already stored on the device.
+       It is never saved under the new name, so the next opening online fetches the new content. */
+    if (!buf && window.caches) {
+      const c = await caches.open('itqan-v1');
+      for (const k of await c.keys()) if (/\/data(-[^/]*)?\.bin$/.test(new URL(k.url).pathname)) { const r = await c.match(k); if (r) { buf = await read(r); ITQAN_STALE = true; break; } }
+    }
+    if (!buf) throw new Error('fetch');
+    if (!ITQAN_STALE) try { if (window.caches && window.isSecureContext) { const c = await caches.open('itqan-v1'); if (!(await c.match(url))) await c.put(url, new Response(buf.slice(0), { headers: { 'content-type': 'application/octet-stream' } })); } } catch (e) { }
   } catch (e) { msg('تعذر تحميل المحتوى. افتح الرابط وأنت متصل بالإنترنت مرة واحدة على الأقل، ثم يعمل بعدها بلا اتصال.'); throw e; }
   if (String.fromCharCode(buf[0], buf[1], buf[2], buf[3]) !== 'ITQ1') { msg('ملف المحتوى تالف؛ أعد فتح الرابط وأنت متصل.'); throw new Error('bad data'); }
   const iter = new DataView(buf.buffer, buf.byteOffset + 4, 4).getUint32(0);
@@ -1257,6 +1329,7 @@ const I = {
   hand: sv('<path d="M8 12.5V5.8a1.6 1.6 0 0 1 3.2 0V11"/><path d="M11.2 10.5V4.6a1.6 1.6 0 0 1 3.2 0v6"/><path d="M14.4 10.8V6.2a1.6 1.6 0 0 1 3.2 0V14a7 7 0 0 1-7 7h-.5a6 6 0 0 1-5-2.7l-2.4-3.6a1.6 1.6 0 0 1 2.6-1.8L8 15"/>'),
   plus: sv('<path d="M12 5v14M5 12h14"/>'),
   eye: sv('<path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z"/><circle cx="12" cy="12" r="3"/>'),
+  key: sv('<circle cx="8" cy="15.5" r="4.2"/><path d="M11 12.5 20.5 3"/><path d="m16.2 7.3 2.8 2.8"/><path d="m13.4 10.1 2.2 2.2"/>'),
   stop: sv('<rect x="6.5" y="6.5" width="11" height="11" rx="2" fill="currentColor" stroke="none"/>'),
   gear: sv('<circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/>'),
 };
@@ -1286,7 +1359,6 @@ const CAUSES = {
 const CONF = { sure: 'متأكد', unsure: 'متردد', guess: 'أخمّن' };
 const POOL_LABEL = { 'official-model': 'نموذج رسمي', 'official-train': 'تدريبي رسمي', diagnostic: 'تشخيصي', followup: 'تشخيص موجه', practice: 'تدريب', assess: 'قياس إتقان (محجوز)', imported: 'مستورد' };
 const MODE_LABEL = { diag: 'التشخيص', fu: 'التشخيص الموجه', practice: 'تدريب الفكرة', assess: 'قياس الإتقان', testout: 'اختبار التجاوز', review: 'مراجعة متباعدة', remedy: 'علاج خطأ', verify: 'سؤال تحقق', official: 'أسئلة الدليل', mixed: 'تدريب مختلط موقوت', cumul: 'اختبار تراكمي', sim: 'اختبار تدريبي شامل', targeted: 'تدريب موجه', imported: 'بنك مستورد' };
-
 /* ---- 02_store.js ---- */
 /* ================= state + persistence ================= */
 function defaultState() {
@@ -1310,7 +1382,7 @@ function defaultState() {
     badges: {},    // badgeId -> first unlock time (motivation only; see 08_engage.js)
     best: { streak: 0, sprint: 0, match: 0 },   // personal bests: longest streak, most correct in the minute sprint, fastest flawless match (ms)
     chal: {},      // finished quick challenges: id -> {k, t, ...} (so effort points can be recounted)
-    course: { pos: {}, done: {}, checks: {}, unitDone: {} },   // the sequential course: position per lesson, passed lesson tests, step checks, unit tests (04f_course.js)
+    course: { pos: {}, done: {}, checks: {}, unitDone: {}, keep: {}, klog: [], warmAt: 0 },   // the sequential course: position per lesson, passed lesson tests, step checks (+ their retries), unit tests (04f_course.js); quick-retrieval schedule per studied idea, its session log and the last warm-up time (04g_keep.js)
   };
 }
 let S = defaultState();
@@ -1325,7 +1397,9 @@ function normalize(s) {
   for (const k of ['studied', 'prog', 'recall', 'mastery', 'reviews', 'errors', 'flags', 'review', 'cards', 'badges', 'chal', 'strat', 'guide']) if (!out[k] || typeof out[k] !== 'object' || Array.isArray(out[k])) out[k] = {};
   for (const k in out.badges) if (!(Number(out.badges[k]) > 0)) delete out.badges[k];
   if (!out.course || typeof out.course !== 'object' || Array.isArray(out.course)) out.course = {};
-  for (const k of ['pos', 'done', 'checks', 'unitDone']) if (!out.course[k] || typeof out.course[k] !== 'object' || Array.isArray(out.course[k])) out.course[k] = {};
+  for (const k of ['pos', 'done', 'checks', 'unitDone', 'keep']) if (!out.course[k] || typeof out.course[k] !== 'object' || Array.isArray(out.course[k])) out.course[k] = {};
+  if (!Array.isArray(out.course.klog)) out.course.klog = [];
+  out.course.warmAt = Number(out.course.warmAt) || 0;
   const bs = (s && s.best) || {};
   out.best = { streak: Math.max(0, Number(bs.streak) || 0), sprint: Math.max(0, Number(bs.sprint) || 0), match: Math.max(0, Number(bs.match) || 0) };
   if (!Array.isArray(out.tests)) out.tests = [];
@@ -1354,13 +1428,19 @@ function mergeState(newer, older) {
   uni('chal');
   uni('guide', (x, y) => ({ at: (y.max || 0) > (x.max || 0) ? y.at : x.at, max: Math.max(x.max || 0, y.max || 0), done: !!(x.done || y.done), doneAt: Math.min(x.doneAt || Infinity, y.doneAt || Infinity) === Infinity ? undefined : Math.min(x.doneAt || Infinity, y.doneAt || Infinity) }));
   uni('strat', (x, y) => ({ seen: Math.min(x.seen || Infinity, y.seen || Infinity) === Infinity ? 0 : Math.min(x.seen || Infinity, y.seen || Infinity), demo: Math.max(x.demo || 0, y.demo || 0) }));
-  /* the course: furthest position per lesson, every passed lesson (best score, earliest pass), every step check (latest answer), every unit test (best) */
-  const oc = b.course || {}, nc = out.course = Object.assign({ pos: {}, done: {}, checks: {}, unitDone: {} }, out.course || {});
-  for (const k of ['pos', 'done', 'checks', 'unitDone']) if (!nc[k] || typeof nc[k] !== 'object') nc[k] = {};
+  /* the course: furthest position per lesson, every passed lesson (best score, earliest pass), every step check (latest answer or retry), every unit test (best),
+     the quick-retrieval schedule of each idea (the device that retrieved it last), and every retrieval session */
+  const oc = b.course || {}, nc = out.course = Object.assign({ pos: {}, done: {}, checks: {}, unitDone: {}, keep: {}, klog: [], warmAt: 0 }, out.course || {});
+  for (const k of ['pos', 'done', 'checks', 'unitDone', 'keep']) if (!nc[k] || typeof nc[k] !== 'object' || Array.isArray(nc[k])) nc[k] = {};
+  if (!Array.isArray(nc.klog)) nc.klog = [];
+  const ckT = c => Math.max((c && c.t) || 0, (c && c.r && c.r.t) || 0);
   for (const id in oc.pos || {}) { const x = nc.pos[id], y = oc.pos[id]; if (!x) nc.pos[id] = clone(y); else nc.pos[id] = { card: (y.t || 0) > (x.t || 0) ? y.card : x.card, max: Math.max(x.max || 0, y.max || 0), t: Math.max(x.t || 0, y.t || 0) }; }
   for (const id in oc.done || {}) { const x = nc.done[id], y = oc.done[id]; if (!x) nc.done[id] = clone(y); else nc.done[id] = { at: Math.min(x.at || Infinity, y.at || Infinity) === Infinity ? 0 : Math.min(x.at || Infinity, y.at || Infinity), score: Math.max(x.score || 0, y.score || 0), via: (y.score || 0) > (x.score || 0) ? y.via : x.via }; }
-  for (const id in oc.checks || {}) { const x = nc.checks[id] = nc.checks[id] || {}; const y = oc.checks[id] || {}; for (const k in y) if (!x[k] || (y[k].t || 0) > (x[k].t || 0)) x[k] = clone(y[k]); }
+  for (const id in oc.checks || {}) { const x = nc.checks[id] = nc.checks[id] || {}; const y = oc.checks[id] || {}; for (const k in y) if (!x[k] || ckT(y[k]) > ckT(x[k])) x[k] = clone(y[k]); }
   for (const id in oc.unitDone || {}) { const x = nc.unitDone[id], y = oc.unitDone[id]; if (!x || (y.score || 0) > (x.score || 0)) nc.unitDone[id] = clone(y); }
+  for (const id in oc.keep || {}) { const x = nc.keep[id], y = oc.keep[id]; if (!x || (y.last || 0) > (x.last || 0)) nc.keep[id] = clone(y); }
+  { const have = new Set(nc.klog.map(x => x && x.t)); const extra = (Array.isArray(oc.klog) ? oc.klog : []).filter(x => x && x.t && !have.has(x.t)); if (extra.length) nc.klog = nc.klog.concat(clone(extra)).sort((x, y) => (x.t || 0) - (y.t || 0)).slice(-60); }
+  nc.warmAt = Math.max(Number(nc.warmAt) || 0, Number(oc.warmAt) || 0);
   const ob = b.best || {}, nb = out.best = Object.assign({ streak: 0, sprint: 0, match: 0 }, out.best);
   nb.streak = Math.max(nb.streak || 0, ob.streak || 0); nb.sprint = Math.max(nb.sprint || 0, ob.sprint || 0);
   nb.match = [nb.match, ob.match].filter(v => v > 0).reduce((m, v) => Math.min(m, v), Infinity); if (!isFinite(nb.match)) nb.match = 0;   /* the best match time is the fastest */
@@ -1562,7 +1642,6 @@ function renderSavePill() {
   } else { cls += ' local'; html = I.device + 'هذا الجهاز فقط'; }
   el.className = cls; el.innerHTML = html;
 }
-
 /* ---- 03_engine.js ---- */
 /* ================= engine ================= */
 function allAttempts() {
@@ -1751,7 +1830,8 @@ const trainPools = () => ['practice', 'ref-train', 'official-train', 'imported']
 function verificationFor(q) {
   const base = x => x.id !== q.id && fam(x) !== fam(q) && x.pool !== 'official-model';
   const tiers = [x => q.idea && x.idea === q.idea, x => x.ind === q.ind, x => x.sub === q.sub, x => x.std === q.std];
-  for (const t of tiers) { const r = pickQuestions({ pred: x => base(x) && t(x), n: 1, pools: trainPools(), order: 'level' }); if (r.length) return r[0]; }
+  const known = x => !x.idea || !!S.studied[x.idea];   /* a check question from an idea already studied, when there is a choice */
+  for (const t of tiers) for (const pref of [known, null]) { const r = pickQuestions({ pred: x => base(x) && t(x) && (!pref || pref(x)), n: 1, pools: trainPools(), order: 'level' }); if (r.length) return r[0]; }
   return null;
 }
 /* reserved measurement items for an idea, in the order reviews should use them */
@@ -1773,7 +1853,44 @@ function errorList(filter) {
   const found = e => { const q = getQ(e.q); if (!q.idea) return 0; const l = lessonOfIdea(q.idea); return (l.stage === 1 ? 1 : 0) + unlocksOf(l.id).length * 0.3; };
   return list.sort((a, b) => (b.count - a.count) || (found(b) - found(a)) || (a.due - b.due));
 }
-const dueErrors = () => errorList(e => e.status === 'open' || (e.status === 'fixed' && e.due <= endOfToday())).filter(e => e.due <= endOfToday());
+/* An error on an idea the learner has not reached in the course waits for its lesson: studying the lesson is its remedy, and its
+   fresh check question comes the day after the idea is studied (errorsOnStudy). The learner can still pull it forward (e.now). */
+function lessonPassed(lid) {
+  const m = CACHE.lp || (CACHE.lp = {}); if (lid in m) return m[lid];
+  return (m[lid] = typeof courseLessonDone === 'function' ? !!courseLessonDone(lid) : false);
+}
+/* the lessons that teach a question: its idea's lesson, or (diagnostic items carry no idea) the lessons that cover its indicator */
+const _LOI = {};
+const lessonsOfInd = ind => _LOI[ind] || (_LOI[ind] = C.lessons.filter(l => l.status === 'complete' && l.indicators.includes(ind)).map(l => l.id));
+function lessonReached(lid) {
+  const m = CACHE.lr || (CACHE.lr = {}); if (lid in m) return m[lid];
+  return (m[lid] = lessonPassed(lid) || ideasOf(lid).every(i => S.studied[i.id]));
+}
+function errDeferred(e) {
+  if (!e || e.now) return false;
+  const q = getQ(e.q); if (!q) return false;
+  if (q.idea) { if (S.studied[q.idea]) return false; const idea = IX.idea.get(q.idea); return !!idea && !lessonPassed(idea.lesson); }
+  const ls = lessonsOfInd(q.ind); return ls.length > 0 && !ls.every(lessonReached);
+}
+/* the lesson a waiting error waits for: the first one in course order that is not reached yet */
+function errWaitsFor(e) {
+  const q = getQ(e.q); if (!q) return null;
+  if (q.idea) { const idea = IX.idea.get(q.idea); return idea ? idea.lesson : null; }
+  const ls = lessonsOfInd(q.ind).filter(lid => !lessonReached(lid)); if (!ls.length) return null;
+  const order = typeof courseIndex === 'function' ? courseIndex().list.map(x => x.lid) : [];
+  return ls.sort((a, b) => order.indexOf(a) - order.indexOf(b))[0];
+}
+const deferredErrors = () => errorList(errDeferred);
+const dueErrors = () => errorList(e => !errDeferred(e) && (e.status === 'open' || (e.status === 'fixed' && e.due <= endOfToday()))).filter(e => e.due <= endOfToday());
+/* an idea was just studied: the errors it unlocks come due tomorrow, as a spaced check, not this minute */
+function errorsOnStudy(ideaId) {
+  const idea = IX.idea.get(ideaId); if (!idea) return; invalidate();
+  const soon = now() + 20 * HOUR;
+  for (const e of Object.values(S.errors)) {
+    const q = getQ(e.q); if (!q || e.status !== 'open' || (e.due || 0) >= soon) continue;
+    if (q.idea ? q.idea === ideaId : (lessonsOfInd(q.ind).includes(idea.lesson) && !errDeferred(e))) e.due = soon;
+  }
+}
 /* errors that can be remedied now: a fresh verification question exists */
 const actionableErrors = () => dueErrors().filter(e => verificationFor(getQ(e.q)));
 /* ---- planning ---- */
@@ -1803,29 +1920,42 @@ function topWeak() {
     items.push({ kind: 'std', id: s.id, score: s.weight * Math.max(gap, 0.05) * (e.enough ? 1 : 0.7), e, title: `المعيار ${AR(s.num)}: ${s.name}` });
   }
   for (const i of C.ideas) { const st = ideaStatus(i.id); if (st.key === 'needs') items.push({ kind: 'idea', id: i.id, score: 12, st, title: i.title }); }
-  for (const e of errorList(x => x.count >= 2)) items.push({ kind: 'err', id: e.q, score: 8 + e.count, e, title: 'خطأ متكرر: ' + (getQ(e.q).concept || '') });
+  for (const e of errorList(x => x.count >= 2 && !errDeferred(x))) items.push({ kind: 'err', id: e.q, score: 8 + e.count, e, title: 'خطأ متكرر: ' + (getQ(e.q).concept || '') });
   return items.sort((a, b) => b.score - a.score).slice(0, 3);
 }
 const sameSessionToday = id => { const ev = evidence(q => q.idea === id); const last = ev[ev.length - 1]; return !!last && (now() - last.t) < S.rules.gapH * HOUR; };
 function studyDayToday() { return S.profile.days.includes(new Date().getDay()); }
+const PLAN_V = 2;
 function planToday(force) {
-  if (!force && S.today && S.today.date === todayKey()) return S.today;
-  const steps = [];
+  if (!force && S.today && S.today.date === todayKey() && S.today.v === PLAN_V) return S.today;
+  const steps = [], D = S.profile.dailyMin;
   if (!S.diag.done) {
     steps.push({ k: 'diag', title: 'الاختبار التشخيصي', why: '٣٦ سؤالًا موزعة على المعايير التسعة بأوزانها الرسمية، لتقدير مستواك المبدئي وبناء خطتك. يمكنك التوقف والعودة.', min: 45 });
   } else {
+    /* 1. what is due: spaced reviews on new questions, then the quick retrieval of what was studied (04g_keep.js) */
     const di = dueIdeas();
     if (di.length) steps.push({ k: 'review', ideas: di.map(i => i.id), title: `مراجعة متباعدة: ${plural(di.length, 'فكرة واحدة', 'فكرتان', 'أفكار', 'فكرة')}`, why: 'حان موعد مراجعتها؛ أسئلة جديدة مختلطة دون عنوان الدرس', min: 3 * di.length });
-    const de = actionableErrors().slice(0, 4);
-    if (de.length) { const top = de[0]; steps.push({ k: 'remedy', qids: de.map(e => e.q), title: `علاج الأخطاء: ${plural(de.length, 'سؤال واحد', 'سؤالان', 'أسئلة', 'سؤالًا')}`, why: (top.count >= 2 ? 'يبدأ بخطأ متكرر' : 'كل خطأ يرتبط بإجراء علاجي وسؤال تحقق جديد') + (top.cause ? ` · السبب: ${CAUSES[top.cause].label}` : ''), min: 3 * de.length }); }
-    const ins = insufficientStds().filter(s => pickQuestions({ pred: q => q.std === s.id, pools: ['followup'], n: 1 }).length);
-    if (!S.diag.fuDone && ins.length) steps.push({ k: 'followup', title: 'أسئلة تشخيص موجهة', why: 'معايير قُدّرت بأقل من ٤ أسئلة: ' + ins.map(s => 'المعيار ' + AR(s.num)).join('، '), min: Math.min(20, ins.length * 2 * 1.5) });
+    const kp = (typeof keepPlanStep === 'function') ? keepPlanStep() : null;
+    if (kp) steps.push(kp);
     /* the learning step follows the sequential course (04f_course.js): the lesson in progress, else the next open lesson */
     const cn = (typeof courseNext === 'function') ? courseNext() : null;
+    /* 2. errors of ideas already studied: a few before the lesson, sized so the lesson keeps most of the day's time.
+          Errors on ideas not reached yet wait for their lessons (errDeferred). */
+    const ae = actionableErrors(), pre = sum(steps.map(s => s.min)), preBudget = D * 0.45 - pre;
+    const rn = !ae.length ? 0 : !cn ? Math.min(4, ae.length) : Math.min(ae.length, 3, Math.max(D >= 15 ? 1 : 0, Math.floor(preBudget / 3)));
+    const de = ae.slice(0, rn);
+    if (de.length) { const top = de[0]; steps.push({ k: 'remedy', qids: de.map(e => e.q), title: `علاج الأخطاء: ${plural(de.length, 'سؤال واحد', 'سؤالان', 'أسئلة', 'سؤالًا')}`, why: (top.count >= 2 ? 'يبدأ بخطأ متكرر' : 'أخطاء في أفكار درستها؛ لكل خطأ سؤال تحقق جديد') + (top.cause ? ` · السبب: ${CAUSES[top.cause].label}` : ''), min: 3 * de.length }); }
+    /* proof of mastery for ideas whose lesson test is behind them (before it, the lesson test itself is the second-session evidence and
+       must find its reserved questions unspent): before the lesson when the day has room, else offered after it */
+    const ne = ideasNeedingEvidence().filter(i => lessonPassed(i.lesson) && pickQuestions({ pred: q => q.idea === i.id, pools: ['practice', 'assess'], n: 1 }).length && !sameSessionToday(i.id));
+    const room = preBudget - 3 * de.length, an = !ne.length ? 0 : !cn ? 3 : room >= 7 ? 2 : room >= 4 ? 1 : 0;
+    const assessStep = n => ({ k: 'assess', ideas: ne.slice(0, n).map(i => i.id), title: `إثبات الإتقان: ${ne.slice(0, n).map(i => i.title.split(/[:،(]/)[0].trim()).join('، ')}`, why: 'اجتزت درسها وتحتاج أدلة أخرى من أسئلة جديدة في جلسة ثانية', min: n * 3 + 1 });
+    if (an) steps.push(assessStep(an));
+    /* 3. the lesson */
     let nx = null;
     if (cn) {
-      const pos = (S.course && S.course.pos && S.course.pos[cn.e.lid]) || null;
-      steps.push({ k: 'course', lesson: cn.e.lid, title: `المقرر: ${cn.e.l.title}`, why: `${cn.why}؛ الوحدة ${AR(cn.e.unit.n)} «${cn.e.unit.title}»` + (cn.e.l.examItems ? ` · ورد موضوعه في نحو ${AR(cn.e.l.examItems)} سؤالًا مسترجعًا` : ''), min: Math.min(S.profile.dailyMin, pos && pos.card > 0 ? 20 : 25) });
+      const pos = (S.course && S.course.pos && S.course.pos[cn.e.lid]) || null, used = sum(steps.map(s => s.min));
+      steps.push({ k: 'course', lesson: cn.e.lid, title: `المقرر: ${cn.e.l.title}`, why: `${cn.why}؛ الوحدة ${AR(cn.e.unit.n)} «${cn.e.unit.title}»` + (cn.e.l.examItems ? ` · ورد موضوعه في نحو ${AR(cn.e.l.examItems)} سؤالًا مسترجعًا` : ''), min: Math.max(8, Math.min(pos && pos.card > 0 ? 20 : 25, D - used)) });
     } else {
       nx = nextIdea();
       if (nx) {
@@ -1834,8 +1964,10 @@ function planToday(force) {
         steps.push({ k: 'learn', idea: nx.idea.id, title: `تعلّم: ${nx.idea.title}`, why, min: nx.idea.minutes + 8 });
       }
     }
-    const ne = ideasNeedingEvidence().filter(i => pickQuestions({ pred: q => q.idea === i.id, pools: ['practice', 'assess'], n: 1 }).length && !sameSessionToday(i.id));
-    if (ne.length) steps.push({ k: 'assess', ideas: ne.slice(0, 3).map(i => i.id), title: `إثبات الإتقان: ${ne.slice(0, 3).map(i => i.title).join('، ')}`, why: 'درستها وتحتاج أدلة من أسئلة جديدة في جلسة ثانية', min: 8 });
+    /* 4. when time is left: the proof of mastery that did not fit before the lesson, then the follow-up diagnostic */
+    if (ne.length && !an) steps.push(Object.assign(assessStep(Math.min(3, ne.length)), { opt: 1 }));
+    const ins = insufficientStds().filter(s => pickQuestions({ pred: q => q.std === s.id, pools: ['followup'], n: 1 }).length);
+    if (!S.diag.fuDone && ins.length) steps.push({ k: 'followup', opt: 1, title: 'أسئلة تشخيص موجهة', why: 'معايير قُدّرت بأقل من ٤ أسئلة: ' + ins.map(s => 'المعيار ' + AR(s.num)).join('، '), min: Math.min(20, ins.length * 2 * 1.5) });
     if (!nx && !cn) {
       const tgt = C.standards.map(s => ({ s, e: stdEstimate(s.id), n: pickQuestions({ pred: q => q.std === s.id, pools: trainPools() }).length })).filter(x => x.n > 0)
         .sort((a, b) => b.s.weight * (1.05 - (a.e.acc == null ? 0.5 : a.e.acc)) - a.s.weight * (1.05 - (b.e.acc == null ? 0.5 : b.e.acc)) || 0)[0];
@@ -1846,12 +1978,22 @@ function planToday(force) {
       else steps.push({ k: 'mixed', title: 'تدريب مختلط موقوت', why: 'مزج الموضوعات تحت الوقت يدربك على التعرف على المفهوم دون عنوان', min: 15 });
     }
   }
-  let total = 0; const kept = [];
-  for (const s of steps) { if (kept.length < 2 || total + s.min <= S.profile.dailyMin + 5) { kept.push(s); total += s.min; } }
-  S.today = { date: todayKey(), steps: kept, done: [], built: now() };
+  /* what is due, the errors and the lesson always stay. An optional step that fits the day becomes an ordinary step; one that does not fit
+     is kept as «إن بقي وقت»: it is offered after the core steps and never keeps the day open. */
+  let total = 0, optKept = false; const kept = [];
+  for (const s of steps) {
+    if (!s.opt) { kept.push(s); total += s.min; continue; }
+    const { opt, ...x } = s;
+    if (total + s.min <= D + 5) { kept.push(x); total += s.min; }
+    else if (!optKept) { kept.push(s); optKept = true; }
+  }
+  S.today = { date: todayKey(), v: PLAN_V, steps: kept, done: [], built: now() };
   Store.touch();
   return S.today;
 }
+/* the next core step of the day (-1 when the core is done), and the optional step still open */
+const planNext = t => (t && t.steps ? t.steps.findIndex((s, i) => !s.opt && !t.done.includes(i)) : -1);
+const planOptNext = t => (t && t.steps ? t.steps.findIndex((s, i) => s.opt && !t.done.includes(i)) : -1);
 function markPlanDone(k) { const t = S.today; if (!t || t.date !== todayKey()) return; const i = t.steps.findIndex((s, j) => s.k === k && !t.done.includes(j)); if (i >= 0) { t.done.push(i); Store.touch(); } }
 function pace() {
   const ex = examTs(); if (!ex) return null;
@@ -1863,7 +2005,6 @@ function pace() {
   return { days, studyDays, mins, need, ok: need <= S.profile.dailyMin };
 }
 function estRemain(cur) { if (!cur) return 0; const left = cur.qids.length - Object.keys(cur.ans).length; return Math.max(2, Math.round(left * 1.3)); }
-
 /* ---- 04_ui.js ---- */
 /* ================= UI infrastructure ================= */
 const UI = { view: 'home', params: {}, stack: [], tab: 'home', open: {} };
@@ -2132,7 +2273,6 @@ function startQTimer() {
 }
 function totalSpent(c) { return sum(Object.values(c.ans).map(a => a.ms || 0)) + (now() - c.qStart); }
 const fmtSec = s => `${pad2(Math.floor(s / 60))}:${pad2(s % 60)}`;
-
 /* ---- 04b_render.js ---- */
 /* ================= render v2: diagrams, explain paragraphs, comparisons ================= */
 /* Teaching figures for a visual learner, phone first. Every content string goes through esc() or md().
@@ -2385,7 +2525,6 @@ function compareHTML(c) {
   const body = c.rows.filter(Array.isArray).map(r => `<tr><th scope="row">${mdx(r[0])}</th>${vals.map((h, j) => `<td style="--c:${DG_K(j)}"><span class="cmp-lab">${mdx(h)}</span><span class="cmp-v">${mdx(r[j + 1])}</span></td>`).join('')}</tr>`).join('');
   return `<div class="cmp" data-k="${k}">${c.title ? `<p class="cmp-title">${mdx(c.title)}</p>` : ''}<table class="cmp-t"><colgroup><col style="width:${w0}%">${vals.map(() => '<col>').join('')}</colgroup>${head}<tbody>${body}</tbody></table></div>`;
 }
-
 /* ---- 04c_ref.js ---- */
 /* ================= reference packs per lesson + the reference-derived training banks ================= */
 /* lesson.ref  = pack of «كتاب التفوق» (SRC-TFQ)   lesson.ref2 = pack of «حقيبة منصة ميم» (SRC-MEEM)
@@ -2502,7 +2641,6 @@ ACT.refStd = d => {
   startRun({ mode: 'refbank', title: `${meta.bank}: المعيار ` + AR(IX.std.get(d.s).num), qids: qs.map(q => q.id), fb: 'now', allowVerify: true });
 };
 MODE_LABEL.refbank = 'بنك المراجع';
-
 /* ---- 04d_strat.js ---- */
 /* ================= طرق الحل الذهنية: strategies hub, strategy page, verifiable demos, drills, mental routes ================= */
 /* content: C.strategies = [{id, domain, group, title, goal, when, steps, example, example2, why, fails, compare?, card, ideas, inds, src, demo?, demo2?, verify}]
@@ -2707,7 +2845,6 @@ ACT.stratDrill = d => {
   startRun({ mode: 'strategy', title: 'تدريب على طريقة: ' + s.title, qids: qs.map(q => q.id), fb: 'now', ctx: { strat: s.id, allowVerify: true }, back: 'strategy' });
 };
 document.addEventListener('input', e => { const a = e.target.closest && e.target.closest('input[data-chg="dmIn"]'); if (a) ACT.dmIn(a.dataset, a); });
-
 /* ---- 04e_guide.js ---- */
 /* ================= الشرح الموجّه: one sequential, story-threaded explanation per lesson, personalised by the diagnostic ================= */
 /* lesson.guide = {cast, hook:{scene,question,promise}, segments:[{idea,bridge,scene?,takeaway}], wrap:{resolution,exam,bridgeNext?}}
@@ -2913,19 +3050,19 @@ function guideLessonCTA(l) {
   return `<section class="card gd-next"><div class="row"><span class="gd-ic">${I.book}</span><div class="grow"><div class="t"><b>الشرح الموجّه لهذا الدرس</b></div><div class="small muted">قصة واحدة متسلسلة: شرح ← فحص ← طريقة ذهنية ← مثال ← تدريب، في نحو ${AR(guideMinutes(l))} دقيقة.</div></div></div>
     <div class="row wrap" style="margin-top:8px">${guideLevelChip(gl)}${p.done ? `<span class="chip st-proven">${I.check}اكتمل</span>` : p.at > 0 ? `<span class="chip">${AR(p.at + 1)} / ${AR(p.n)}</span>` : ''}<span class="grow"></span>${goBtn(p.done ? 'أعد الشرح' : p.at > 0 ? 'تابع الشرح' : 'ابدأ الشرح', 'guide', { id: l.id, k: p.done ? 0 : p.at }, 'btn', I.play)}</div></section>`;
 }
-
 /* ---- 04f_course.js ---- */
 /* ================= المقرر: one sequential course — units → lessons → step-by-step cards → lesson questions → lesson-test gate ================= */
 /* C.course = {passPct, tracks:[{id,title,sub}], units:[{id,track,n,title,thread,lessons:[{id,why,soft?}]}]}
    idea.micro = {plain, hook:{situation,question,reveal}, steps:[{t,text,check:{q,options,answer,why}}], analogy?, pitfall, bridge?}
-   state: S.course = { pos:{lid:{card,max,t}}, done:{lid:{at,score,via}}, checks:{ideaId:{k:{c,ok,t}}}, unitDone:{uid:{at,score}} } */
+   state: S.course = { pos:{lid:{card,max,t}}, done:{lid:{at,score,via}}, checks:{ideaId:{k:{c,ok,t,r?}}}, unitDone:{uid:{at,score}}, keep, klog, warmAt (04g_keep.js) } */
 TAB_OF.course = 'course'; TAB_OF.chapter = 'course';
 MODE_LABEL.gate = 'اختبار الدرس'; MODE_LABEL.lessonbank = 'أسئلة الدرس'; MODE_LABEL.unit = 'اختبار الوحدة';
 const COURSE = C.course || { passPct: 0.8, tracks: [], units: [] };
 const TRACK_ORDER = ['edu', 'prof', 'quant', 'verbal'];
 function courseState() {
   if (!S.course || typeof S.course !== 'object' || Array.isArray(S.course)) S.course = {};
-  const c = S.course; for (const k of ['pos', 'done', 'checks', 'unitDone']) if (!c[k] || typeof c[k] !== 'object' || Array.isArray(c[k])) c[k] = {};
+  const c = S.course; for (const k of ['pos', 'done', 'checks', 'unitDone', 'keep']) if (!c[k] || typeof c[k] !== 'object' || Array.isArray(c[k])) c[k] = {};
+  if (!Array.isArray(c.klog)) c.klog = [];
   return c;
 }
 let _CI = null;
@@ -3039,7 +3176,8 @@ VIEWS.course = () => {
             const e = ci.byId[x.id]; const dn = courseLessonDone(x.id); const op = courseOpen(x.id); const pos = c.pos[x.id];
             const st = dn ? `<span class="chip st-proven">${I.check}مجتاز${dn.score != null ? ' · ' + PCT(dn.score) : ''}</span>` : !op ? `<span class="chip st-planned">${I.lock}مقفل</span>` : pos && pos.card > 0 ? `<span class="chip st-learning">${I.book}قيد الدراسة</span>` : `<span class="chip st-new">${I.circle}متاح</span>`;
             const sub = dn ? (dn.via === 'mastery' ? 'ثبت بأدلة الإتقان' : dn.via === 'testout' ? 'اجتزته باختبار التجاوز' : 'اجتزت اختبار الدرس') + (dn.at ? ' · ' + fmtShort(dn.at) : '') : !op ? `يُفتح بعد اجتياز «${esc(coursePrev(x.id).l.title.split(/[:،(]/)[0].trim())}»` : `${AR(courseMinutes(e.l))} د · ${AR(ideasOf(x.id).length)} أفكار`;
-            return `<div class="li ${op || dn ? 'tap' : 'cs-locked'}" data-act="${op || dn ? 'go' : 'courseLocked'}" data-v="chapter" data-p='${esc(JSON.stringify({ id: x.id }))}' data-id="${x.id}"><span class="chip num">${AR(i + 1)}</span><div class="grow"><div class="t">${esc(e.l.title)}</div><div class="s">${sub}</div></div>${st}</div>`;
+            const sumLink = dn || (pos && pos.max > 0) ? ` · <button class="linkish" data-act="go" data-v="summary" data-p='${esc(JSON.stringify({ id: x.id }))}'>الملخص</button>` : '';
+            return `<div class="li ${op || dn ? 'tap' : 'cs-locked'}" data-act="${op || dn ? 'go' : 'courseLocked'}" data-v="chapter" data-p='${esc(JSON.stringify({ id: x.id }))}' data-id="${x.id}"><span class="chip num">${AR(i + 1)}</span><div class="grow"><div class="t">${esc(e.l.title)}</div><div class="s">${sub}${sumLink}</div></div>${st}</div>`;
           }).join('')}</div>
           ${courseUnitDone(u) && u.lessons.length > 1 ? `<div class="btns" style="margin-top:8px"><button class="btn ghost sm" data-act="unitTest" data-u="${u.id}">${I.shield}${ud ? 'أعد اختبار الوحدة' : 'اختبار الوحدة (مختلط)'}</button></div>` : ''}
         </details>`;
@@ -3049,7 +3187,7 @@ VIEWS.course = () => {
     <div class="gd-prog" role="progressbar" aria-valuenow="${Math.round(pr.pct * 100)}" aria-valuemin="0" aria-valuemax="100"><i style="width:${(pr.pct * 100).toFixed(1)}%"></i></div>
     <p class="small muted">${AR(pr.done)} من ${AR(pr.total)} درسًا مجتازًا. لا يُفتح الدرس التالي إلا بعد اجتياز اختبار الدرس (${PCT(COURSE.passPct)} فأعلى على أسئلة جديدة)، أو إثبات معرفتك به من البداية باختبار التجاوز. المسارات الأربعة مستقلة؛ تستطيع التقدم فيها بالتوازي.</p>
     <p class="small"><b>المقرر كاملًا:</b> ${AR(pr.total)} درسًا في ${AR(COURSE.units.length)} وحدات، تغطي المعايير التسعة للاختبار التربوي العام ومؤشراتها الـ${AR(C.indicators.length)} كلها، وفصول ملزمة العواجي وكتاب التفوق جميعها (التفصيل في «تحقق من اكتمال المقرر» أسفل الصفحة).</p></div>
-    ${nextHTML}${units}${courseCompletenessHTML()}
+    ${nextHTML}${engSafe(keepCourseHTML)}${units}${courseCompletenessHTML()}
     ${notice('info', 'نسبة الاجتياز قاعدة تنظيمية للتدريب يمكن تعديلها، وليست معيارًا رسميًا ولا تنبؤًا بدرجة الاختبار. الإتقان نفسه يُقاس على حدة من أدائك على أسئلة جديدة عبر جلسات ومراجعات مؤجلة.')}</div>`;
 };
 document.addEventListener('toggle', e => { const d = e.target; if (d.matches && d.matches('details[data-cu]')) { if (d.dataset.cu === 'Complete') UI.open.csComplete = d.open; else UI.open['cu' + d.dataset.cu] = d.open; } }, true);
@@ -3068,7 +3206,7 @@ function chapterNavHTML(l, k, n, o = {}) {
   const next = k < n - 1 ? (o.locked ? `<button class="btn ghost" disabled>${o.lockedLabel || 'أجب أولًا'}${I.next}</button>` : `<button class="btn ${o.primary === false ? 'ghost' : ''}" data-act="chGo" data-id="${l.id}" data-k="${k + 1}">${o.nextLabel || 'التالي'}${I.next}</button>`) : `<button class="btn ghost" data-act="tab" data-t="course">${I.path}إلى المقرر</button>`;
   return `<div class="gd-nav">${prev}${next}</div>`;
 }
-VIEWS.chapter = ({ id, card, res }) => {
+VIEWS.chapter = ({ id, card, res, nowarm }) => {
   const l = IX.lesson.get(id); if (!l) return notice('bad', 'الدرس غير موجود');
   const e = courseIndex().byId[id];
   if (l.status !== 'complete') return `<div class="stack-l">${notice('warn', 'محتوى هذا الدرس قيد الإعداد.')}${goBtn('صفحة الدرس', 'lesson', { id }, 'btn')}</div>`;
@@ -3077,6 +3215,8 @@ VIEWS.chapter = ({ id, card, res }) => {
     return `<div class="stack-l"><div class="stack"><p class="eyebrow">${esc(e.unit.title)}</p><h1 class="h1">${esc(l.title)}</h1></div>${notice('warn', `<b>هذا الدرس مقفل.</b> يُفتح بعد اجتياز اختبار الدرس السابق «${esc(p.l.title)}» بنسبة ${PCT(COURSE.passPct)} فأعلى، أو تجاوزه باختبار.`, I.lock)}
       <div class="btns"><button class="btn" data-act="go" data-v="chapter" data-p='${esc(JSON.stringify({ id: p.lid }))}'>${I.play}إلى الدرس السابق</button>${goBtn('المقرر', 'course', {}, 'btn ghost')}</div></div>`;
   }
+  /* entering a lesson without a target card (start or resume): what was studied a day or more ago is retrieved first */
+  if (card == null && !nowarm) { const w = engSafe(() => keepWarmHTML(l)); if (w) return w; }
   const cards = chapterCards(l), n = cards.length, c = courseState();
   const pos = c.pos[id] = c.pos[id] || { card: 0, max: 0, t: 0 };
   const k = card == null ? Math.min(pos.card || 0, n - 1) : Math.max(0, Math.min(n - 1, Number(card) || 0));
@@ -3097,9 +3237,10 @@ ACT.chMap = d => {
   const ideas = ideasOf(l.id);
   const rows = ideas.map((idea, i) => { const k0 = cards.findIndex(x => x.idea && x.idea.id === idea.id); const reach = k0 <= (pos.max || 0); const cs = checkStats(idea); return `<div class="li ${reach ? 'tap' : ''}" ${reach ? `data-act="chGoSheet" data-id="${l.id}" data-k="${k0}"` : ''}><span class="chip num">${AR(i + 1)}</span><div class="grow"><div class="t">${esc(idea.title)}</div><div class="s">${cs.n ? `تحقق الخطوات ${AR(cs.ok)}/${AR(cs.n)} · ` : ''}${evidenceText(ideaStatus(idea.id))}</div></div>${reach ? stChip(ideaStatus(idea.id).key) : `<span class="chip st-planned">${I.lock}</span>`}</div>`; }).join('');
   const tail = [['review', 'مراجعة الدرس'], ['bank', 'أسئلة الدرس'], ['gate', 'اختبار الدرس']].map(([t, lab]) => { const k0 = cards.findIndex(x => x.t === t); const reach = k0 <= (pos.max || 0); return `<div class="li ${reach ? 'tap' : ''}" ${reach ? `data-act="chGoSheet" data-id="${l.id}" data-k="${k0}"` : ''}><span class="chip">${t === 'gate' ? I.shield : t === 'bank' ? I.target : I.layers}</span><div class="grow"><div class="t">${lab}</div></div>${reach ? '' : `<span class="chip st-planned">${I.lock}</span>`}</div>`; }).join('');
-  openSheet(`<p class="eyebrow">خريطة الدرس</p><p class="h2">${esc(l.title)}</p><p class="small muted">تنتقل إلى ما وصلت إليه فقط؛ البطاقات اللاحقة تُفتح بالترتيب.</p><div class="list">${rows}${tail}</div><div class="btns end"><button class="btn ghost" data-act="closeSheet">إغلاق</button></div>`);
+  openSheet(`<p class="eyebrow">خريطة الدرس</p><p class="h2">${esc(l.title)}</p><p class="small muted">تنتقل إلى ما وصلت إليه فقط؛ البطاقات اللاحقة تُفتح بالترتيب.</p><div class="list">${rows}${tail}<div class="li tap" data-act="chSum" data-id="${l.id}"><span class="chip">${I.book}</span><div class="grow"><div class="t">ملخص الدرس في صفحة</div><div class="s">للمراجعة السريعة والطباعة</div></div><span class="faint">${I.next}</span></div></div><div class="btns end"><button class="btn ghost" data-act="closeSheet">إغلاق</button></div>`);
 };
 ACT.chGoSheet = d => { closeSheet(); ACT.chGo(d); };
+ACT.chSum = d => { closeSheet(); go('summary', { id: d.id }); };
 /* ---------- card renderers ---------- */
 const csBox = (cls, icon, title, inner) => `<div class="cs-box ${cls}"><div class="cs-box-h">${icon}<span>${title}</span></div>${inner}</div>`;
 const CHAPTER_CARD = {};
@@ -3116,7 +3257,8 @@ CHAPTER_CARD.open = (l, e, cd, k, n) => {
     ${e && e.i === 0 ? `<div class="cs-thread small muted"><b>خيط الوحدة:</b> ${esc(e.unit.thread)}</div>` : ''}
     <div class="stack"><p class="eyebrow">بعد الدرس ستستطيع أن</p><ul class="small" style="margin:0;padding-inline-start:20px">${(l.outcomes || []).map(o => `<li>${md(o)}</li>`).join('')}</ul></div>
     <div class="stack"><p class="eyebrow">خريطة الدرس · نحو ${AR(courseMinutes(l))} دقيقة</p><ol class="cs-ideamap">${ideas.map(i => { const cs = checkStats(i); return `<li><span class="num">${AR(i.n)}</span><span class="grow">${esc(i.title)}</span><span class="tiny faint">${i.micro ? plural(i.micro.steps.length, 'خطوة', 'خطوتان', 'خطوات', 'خطوة') : ''}${cs.done ? ` · ${AR(cs.ok)}/${AR(cs.done)}` : ''}</span></li>`; }).join('')}</ol></div>
-    ${softHTML}${preHTML}${testout}
+    ${engSafe(() => lessonDiagHTML(l))}${softHTML}${preHTML}${testout}
+    <div>${goBtn('ملخص الدرس في صفحة', 'summary', { id: l.id }, 'btn quiet sm', I.layers)}</div>
     <p class="small muted">الطريقة: موقف أولًا ثم القاعدة، خطوة واحدة في كل بطاقة، وسؤال قصير بعد كل خطوة يتحقق من فهمك قبل الانتقال. في نهاية الدرس تجد كل أسئلته مجموعة، ثم اختبار الدرس الذي يفتح ما بعده.</p>`;
   return { html, nav: { nextLabel: 'ابدأ الدرس' } };
 };
@@ -3136,6 +3278,7 @@ CHAPTER_CARD.step = (l, e, cd) => {
   const opts = q.options.map((o, i) => { let cls = 'opt'; if (ch) { if (i === q.answer) cls += ' right'; else if (i === ch.c) cls += ' wrong'; cls += ' locked'; } return `<button class="${cls}" data-act="chPick" data-idea="${idea.id}" data-k="${cd.k}" data-i="${i}" ${ch ? 'aria-disabled="true"' : ''}><span class="bub">${LET[i]}</span><span>${esc(o)}</span></button>`; }).join('');
   const html = `<div class="stack"><p class="eyebrow">${esc(idea.title)}</p><div class="cs-stepdots" aria-hidden="true">${m.steps.map((s, i) => { const c = checksOf(idea.id)[i]; return `<i class="${i === cd.k ? 'c' : c ? (c.ok ? 'ok' : 'no') : ''}"></i>`; }).join('')}</div><h1 class="h1">${esc(st.t)}</h1></div>
     <div class="gd-card"><div class="read cs-text">${md(st.text)}</div></div>
+    ${engSafe(() => stepHelpHTML(idea, cd))}
     <div class="cs-check stack"><div class="cs-check-h">${I.target}<span>تحقّق من الخطوة</span><span class="grow"></span><span class="tiny faint">تدريب على الفهم؛ لا يُحتسب في قياس الإتقان</span></div>
       <div class="q-stem" style="font-size:16.5px">${esc(q.q)}</div><div class="opts" role="group" aria-label="البدائل">${opts}</div>
       ${ch ? `<div class="cs-why ${ch.ok ? 'ok' : 'no'}"><div class="verdict ${ch.ok ? 'ok' : 'no'}">${ch.ok ? I.check : I.x}${ch.ok ? 'صحيح' : 'ليس هذا'}</div>${ch.ok ? '' : `<div class="ans">الصحيح: (${LET[q.answer]}) ${esc(q.options[q.answer])}</div>`}<div class="read">${md(q.why)}</div>${ch.ok ? '' : '<div class="tiny faint">أعد قراءة الخطوة أعلاه مرة واحدة قبل المتابعة؛ الخطوة التالية تبني عليها.</div>'}</div>` : ''}</div>`;
@@ -3161,6 +3304,7 @@ CHAPTER_CARD.anchor = (l, e, cd) => {
   const idea = cd.idea, m = idea.micro;
   const conf = (idea.confusions || []);
   const html = `<div class="stack"><p class="eyebrow">${esc(idea.title)}</p><h1 class="h1">تثبيت الفكرة</h1></div>
+    ${engSafe(() => memoHTML(idea))}
     ${m.analogy ? csBox('teal', I.bulb, 'تشبيه يثبّت الفكرة', `<div class="read">${md(m.analogy)}</div>`) : ''}
     ${csBox('pen', I.alert, 'الخطأ الشائع', `<div class="read">${md(m.pitfall)}</div>`)}
     ${idea.compare ? `<div class="stack"><p class="eyebrow">قارن</p>${compareHTML(idea.compare)}</div>` : ''}
@@ -3206,27 +3350,28 @@ ACT.chPractice = d => {
 };
 CHAPTER_CARD.wrapIdea = (l, e, cd, k, n, x) => {
   const idea = cd.idea, m = idea.micro;
-  if (!S.studied[idea.id]) { S.studied[idea.id] = { at: now(), via: 'course' }; Store.touch(); }
+  if (!S.studied[idea.id]) { S.studied[idea.id] = { at: now(), via: 'course' }; errorsOnStudy(idea.id); Store.touch(); }
   markPlanDone('course');
   const r = idea.retrieval, open = UI.params.rv, rated = S.recall[idea.id];
   const nextIdea = ideasOf(l.id)[cd.i + 1];
   const html = `<div class="stack"><p class="eyebrow">${esc(idea.title)}</p><h1 class="h1">خلاصة الفكرة</h1></div>
     ${x.resHTML}
-    <div class="stack"><p class="eyebrow">في ثلاث جمل</p><ul class="read" style="margin:0;padding-inline-start:22px">${(idea.summary || []).map(s => `<li>${md(s)}</li>`).join('')}</ul></div>
+    <div class="stack"><p class="eyebrow">في ثلاث جمل</p><ul class="read" style="margin:0;padding-inline-start:22px">${(idea.summary || []).map(s => `<li>${md(s)}</li>`).join('')}</ul>${engSafe(() => memoLineHTML(idea))}</div>
+    ${engSafe(() => keepWrapHTML(idea, l, k))}
     ${r ? `<div class="card stack cs-recall"><p class="eyebrow">سؤال استرجاع قبل أن تغادر</p><b class="read" style="font-weight:700">${esc(r.q)}</b>
       ${open ? `<div class="reveal read">${esc(r.a)}</div><div class="row"><span class="small">كيف كان تذكّرك؟</span>${[['full', 'كاملة'], ['part', 'جزئية'], ['none', 'لم أتذكر']].map(([kk, lab]) => `<button class="chip tog" data-act="recallRate" data-id="${idea.id}" data-v="${kk}" aria-pressed="${rated && rated.v === kk}">${lab}</button>`).join('')}</div>` : `<div><button class="btn ghost sm" data-act="chReveal">${I.eye}اكشف الإجابة</button></div>`}</div>` : ''}
     ${idea.card ? `<div class="stack"><p class="eyebrow">بطاقة المراجعة (اضغط لقلبها)</p>${flipHTML(idea.card)}</div>` : ''}
     ${m && m.bridge && nextIdea ? `<div class="gd-bridge"><div class="tiny faint">الجسر إلى الفكرة التالية «${esc(nextIdea.title)}»</div><div class="read">${md(m.bridge)}</div></div>` : ''}
-    ${notice('info', 'سُجلت الفكرة «مدروسة». الإتقان يُقاس على حدة من أدائك على أسئلة جديدة في جلستين ومراجعة مؤجلة.')}`;
+    ${notice('info', 'سُجلت الفكرة «مدروسة»، ويعود سؤال قصير عنها غدًا في الاسترجاع السريع. الإتقان يُقاس على حدة من أدائك على أسئلة جديدة في جلستين ومراجعة مؤجلة.')}`;
   return { html, nav: { nextLabel: nextIdea ? 'الفكرة التالية' : 'مراجعة الدرس' } };
 };
-CHAPTER_CARD.review = (l) => {
+CHAPTER_CARD.review = (l, e, cd, k) => {
   const ideas = ideasOf(l.id);
-  const rows = ideas.map(i => { const cs = checkStats(i), st = ideaStatus(i.id); const weak = cs.done && cs.ok / cs.done < 0.75; return { i, cs, st, weak: weak || st.key === 'needs' }; });
-  const weak = rows.filter(r => r.weak);
-  const html = `<div class="stack"><p class="eyebrow">${esc(l.title)}</p><h1 class="h1">مراجعة الدرس</h1><p class="small muted">تحقق الخطوات يقيس فهمك أثناء الشرح؛ والعمود الأخير يقيس الإتقان من أسئلة جديدة.</p></div>
-    <div class="tbl-wrap"><table class="tbl"><thead><tr><th>الفكرة</th><th>تحقق الخطوات</th><th>الحالة</th></tr></thead><tbody>${rows.map(r => `<tr><td><button class="linkish" data-act="chGo" data-id="${l.id}" data-k="${chapterCardFor(l.id, r.i.id)}">${esc(r.i.title)}</button></td><td class="c num">${r.cs.n ? `${AR(r.cs.ok)}/${AR(r.cs.n)}` : '—'}</td><td class="c">${stChip(r.st.key)}</td></tr>`).join('')}</tbody></table></div>
-    ${weak.length ? notice('warn', `<b>يُستحسن إعادتها قبل اختبار الدرس:</b> ${weak.map(r => `<button class="linkish" data-act="chGo" data-id="${l.id}" data-k="${chapterCardFor(l.id, r.i.id)}">${esc(r.i.title)}</button>`).join('، ')}`) : notice('good', 'فهمك للخطوات جيد في كل الأفكار. الخطوة التالية: أسئلة الدرس مجموعة، ثم اختبار الدرس.')}
+  const rows = ideas.map(i => { const cs = checkStats(i), st = ideaStatus(i.id), wk = weakChecks([i.id]).length; return { i, cs, st, wk }; });
+  const ckCell = r => !r.cs.n ? '—' : `${AR(r.cs.ok)}/${AR(r.cs.n)}` + (r.wk ? `<div class="tiny cs-wk">بقي ${AR(r.wk)}</div>` : r.cs.done && r.cs.ok < r.cs.done ? '<div class="tiny cs-fx">صُحّحت</div>' : '');
+  const html = `<div class="stack"><p class="eyebrow">${esc(l.title)}</p><h1 class="h1">مراجعة الدرس</h1><p class="small muted">تحقق الخطوات يقيس فهمك أثناء الشرح (إجابتك الأولى، وما بقي دون تصحيح)؛ والعمود الأخير يقيس الإتقان من أسئلة جديدة.</p></div>
+    <div class="tbl-wrap"><table class="tbl"><thead><tr><th>الفكرة</th><th>تحقق الخطوات</th><th>الحالة</th></tr></thead><tbody>${rows.map(r => `<tr><td><button class="linkish" data-act="chGo" data-id="${l.id}" data-k="${chapterCardFor(l.id, r.i.id)}">${esc(r.i.title)}</button></td><td class="c num">${ckCell(r)}</td><td class="c">${stChip(r.st.key)}</td></tr>`).join('')}</tbody></table></div>
+    ${engSafe(() => keepReviewHTML(l, k))}
     ${(l.examNote) ? `<div class="box stack"><p class="eyebrow">كيف يأتي هذا الدرس في الاختبار</p><div class="small">${md(l.examNote)}</div></div>` : ''}`;
   return { html, nav: { nextLabel: 'أسئلة الدرس' } };
 };
@@ -3305,6 +3450,7 @@ CHAPTER_CARD.gate = (l, e) => {
   const last = S.tests.find(t => t.gate && t.gate.lesson === l.id);
   const html = `<div class="stack"><p class="eyebrow">${esc(l.title)}</p><h1 class="h1">اختبار الدرس</h1><p class="small muted">${AR(ideas.length * 2)} أسئلة جديدة (سؤالان لكل فكرة) من الأسئلة المحجوزة للقياس، تصحيح في النهاية. ${PCT(COURSE.passPct)} فأعلى تفتح الدرس التالي. ما تخطئ فيه يدخل دفتر الأخطاء بإجراء علاجي.</p></div>
     ${dn ? notice('good', `<b>هذا الدرس مجتاز</b> (${dn.via === 'mastery' ? 'بأدلة الإتقان' : dn.via === 'testout' ? 'باختبار التجاوز' : 'باختبار الدرس'}${dn.score != null ? ' · ' + PCT(dn.score) : ''}). يمكنك إعادة الاختبار بأسئلة جديدة للتثبيت؛ النتيجة الأعلى تُحفظ.`) : ''}
+    ${engSafe(() => gateHintHTML(l))}
     ${last && !dn ? notice(last.gate.pass ? 'good' : 'warn', `آخر محاولة: ${AR(last.ok)}/${AR(last.scored)} (${PCT(last.gate.pct)})${last.gate.weak.length ? ' · أفكار تحتاج إعادة: ' + last.gate.weak.map(id => esc((IX.idea.get(id) || {}).title || '')).join('، ') : ''}`) : ''}
     ${g.qs.length >= need ? `<div class="btns"><button class="btn big" data-act="chGate" data-id="${l.id}">${I.shield}${dn ? 'أعد اختبار الدرس' : 'ابدأ اختبار الدرس'} (${AR(g.qs.length)} أسئلة)</button></div>${g.alt ? notice('info', `نفدت بعض الأسئلة المحجوزة الجديدة لهذا الدرس؛ أُكمل الاختبار بـ${AR(g.alt)} من أسئلة التدريب الجديدة. يبقى الاجتياز معتمدًا على أسئلة لم ترها.`) : ''}` : notice('warn', `لا تكفي الأسئلة الجديدة لاختبار مُحكم (المتاح ${AR(g.qs.length)} والمطلوب ${AR(need)}). تدرّب على أسئلة الدرس المتاحة، ويُعدّ الدرس مجتازًا عندما تثبت أفكاره إتقانًا أوليًا من المراجعات.`)}
     ${nx ? `<div class="box small"><b>الدرس التالي بعد الاجتياز:</b> ${esc(nx.l.title)}${nx.unit.id !== (e || {}).unit.id ? ` (الوحدة ${AR(nx.unit.n)}: ${esc(nx.unit.title)})` : ''}${courseLessonDone(l.id) ? ' ' + goBtn('افتحه', 'chapter', { id: nx.lid }, 'btn sm') : ''}</div>` : e ? notice('good', `هذا آخر درس في «${esc(e.track.title)}».`) : ''}`;
@@ -3333,11 +3479,11 @@ function courseResultHTML(r) {
   const l = IX.lesson.get(g.lesson); const e = courseIndex().byId[g.lesson]; const nx = e ? courseNextOf(g.lesson) : null;
   if (g.pass) return `<section class="hero stack cs-pass"><p class="eyebrow">${I.shield} ${g.testout ? 'اختبار التجاوز' : 'اختبار الدرس'}</p><h2 class="h2">اجتزت «${esc(l.title)}» بنسبة ${PCT(g.pct)}</h2>
     ${g.weak.length ? `<p class="small muted">أفكار أخطأت فيها وتستحق مراجعة لاحقة: ${g.weak.map(id => esc((IX.idea.get(id) || {}).title || '')).join('، ')}.</p>` : '<p class="small muted">إجابات صحيحة في كل الأفكار.</p>'}
-    <div class="btns">${nx ? `<button class="btn big" data-act="go" data-v="chapter" data-p='${esc(JSON.stringify({ id: nx.lid }))}'>${I.play}الدرس التالي: ${esc(nx.l.title.split(/[:،(]/)[0].trim())}</button>` : ''}${goBtn('المقرر', 'course', {}, 'btn ghost')}</div></section>`;
+    <div class="btns">${nx ? `<button class="btn big" data-act="go" data-v="chapter" data-p='${esc(JSON.stringify({ id: nx.lid }))}'>${I.play}الدرس التالي: ${esc(nx.l.title.split(/[:،(]/)[0].trim())}</button>` : ''}${goBtn('المقرر', 'course', {}, 'btn ghost')}${goBtn('ملخص الدرس', 'summary', { id: g.lesson }, 'btn ghost', I.layers)}</div></section>`;
   return `<section class="hero stack cs-fail"><p class="eyebrow">${I.alert} اختبار الدرس</p><h2 class="h2">${PCT(g.pct)} — لم تبلغ ${PCT(COURSE.passPct)} بعد</h2>
     <p class="small muted">${g.scored < 3 ? 'عدد الأسئلة المحتسبة قليل فلا يكفي للحكم.' : 'هذا ليس حكمًا على فهمك بل على جاهزيتك للدرس التالي. راجع الأفكار التي أخطأت فيها، تدرّب عليها، ثم أعد الاختبار بأسئلة جديدة.'}</p>
     ${g.weak.length ? `<div class="list">${g.weak.map(id => { const i = IX.idea.get(id); return i ? `<div class="li tap" data-act="chGo" data-id="${g.lesson}" data-k="${chapterCardFor(g.lesson, id)}"><span style="color:var(--pen)">${I.alert}</span><div class="grow"><div class="t">${esc(i.title)}</div><div class="s">أعد خطواتها ثم تدرّب عليها</div></div><span class="faint">${I.next}</span></div>` : ''; }).join('')}</div>` : ''}
-    <div class="btns"><button class="btn" data-act="chGo" data-id="${g.lesson}" data-k="${chapterCards(l).length - 1}">${I.shield}إلى اختبار الدرس</button>${goBtn('أسئلة الدرس', 'chapter', { id: g.lesson, card: chapterCards(l).length - 2 }, 'btn ghost')}</div></section>`;
+    <div class="btns">${g.weak.filter(id => keepable(IX.idea.get(id))).length ? `<button class="btn" data-act="keepGo" data-mode="ideas" data-src="gate" data-ideas="${g.weak.join(',')}" data-per="2" data-n="8" data-lid="${g.lesson}" data-k="${chapterCards(l).length - 1}">${I.refresh}استرجاع سريع للأفكار الضعيفة</button>` : ''}<button class="btn ghost" data-act="chGo" data-id="${g.lesson}" data-k="${chapterCards(l).length - 1}">${I.shield}إلى اختبار الدرس</button>${goBtn('أسئلة الدرس', 'chapter', { id: g.lesson, card: chapterCards(l).length - 2 }, 'btn ghost')}</div></section>`;
 }
 /* unit test: a mixed set over the unit's lessons (not a gate; a milestone) */
 ACT.unitTest = d => {
@@ -3357,7 +3503,380 @@ function courseHomeHTML() {
     <div class="gd-prog"><i style="width:${(pr.pct * 100).toFixed(1)}%"></i></div>
     <div class="btns"><button class="btn" data-act="go" data-v="chapter" data-p='${esc(JSON.stringify({ id: nx.e.lid }))}'>${I.play}${nx.resume ? 'تابع الدرس' : 'ابدأ الدرس'}</button>${goBtn('كل الوحدات', 'course', {}, 'btn ghost sm')}</div></section>`;
 }
-
+/* ---- 04g_keep.js ---- */
+/* ================= الاسترجاع السريع: spaced retrieval of what was studied =================
+   Re-asks the step checks of studied ideas (options reshuffled) on an expanding schedule: 1, 3, 7, 14, 30 days,
+   and repairs the checks that were answered wrong before the learner leaves an idea or sits the lesson test.
+   Practice only: nothing here enters the attempt log, the mastery evidence or the error notebook.
+   state (inside S.course):
+     keep[ideaId] = {s, due, last, n, ok}   stage 0..4, next due time, last retrieval, totals
+     klog = [{t, n, ok, src}]               finished sessions (last 60)
+     warmAt                                 when the warm-up before a lesson was last done or skipped
+     checks[ideaId][k].r = {n, ok, t}       the latest retry of a step check (the first answer stays in c/ok/t) */
+TAB_OF.keep = 'course';
+const KEEP_SLACK = 4 * HOUR;      /* an evening session a little earlier than yesterday's still counts as a day later */
+const KEEP_WARM_GAP = 4 * HOUR;   /* the warm-up before a lesson is offered at most once in this window */
+const KEEP_SRC = { warm: 'قبل الدرس', plan: 'خطة اليوم', wrap: 'تصحيح خطوات', review: 'تصحيح خطوات', free: 'جولة حرة', lesson: 'أفكار درس', gate: 'بعد اختبار الدرس' };
+const qsN = n => plural(n, 'سؤال واحد', 'سؤالان', 'أسئلة', 'سؤالًا');
+const ideasGen = n => n === 1 ? 'فكرة واحدة' : n === 2 ? 'فكرتين' : n <= 10 ? `${AR(n)} أفكار` : `${AR(n)} فكرة`;   /* after «استرجاع …» */
+/* the latest answer to a step check decides whether it still needs correcting */
+const ckWeak = ch => !!ch && (ch.r ? !ch.r.ok : !ch.ok);
+const ckLastT = ch => (ch ? Math.max(ch.t || 0, (ch.r && ch.r.t) || 0) : 0);
+const keepable = idea => !!(idea && idea.micro && (idea.micro.steps || []).length);
+function weakChecks(ideaIds) {
+  const out = [];
+  for (const id of ideaIds) { const idea = IX.idea.get(id); if (!keepable(idea)) continue; const ch = checksOf(id); idea.micro.steps.forEach((st, k) => { if (ckWeak(ch[k])) out.push({ idea, k }); }); }
+  return out;
+}
+function keepDueAt(stage, t) {
+  let due = t + INTERVALS[Math.min(stage, INTERVALS.length - 1)] * DAY - KEEP_SLACK;
+  const ex = examTs(); if (ex && due > ex - DAY) due = Math.max(t + 12 * HOUR, ex - DAY);
+  return due;
+}
+/* an idea enters the schedule when it is studied: first retrieval a day later */
+function keepEntry(id) {
+  const e = courseState().keep[id]; if (e) return e;
+  const sd = S.studied[id]; return sd ? { s: 0, due: (sd.at || 0) + DAY - KEEP_SLACK, last: 0, n: 0, ok: 0 } : null;
+}
+/* answering new bank questions on an idea today is retrieval enough for today */
+function lastEvMap() { if (CACHE.lastEv) return CACHE.lastEv; const m = {}; for (const a of allAttempts()) { if (a.m === 'learn') continue; const q = getQ(a.q); if (q && q.idea) m[q.idea] = a.t; } return (CACHE.lastEv = m); }
+const keepDueT = (id, e) => Math.max((e && e.due) || 0, (lastEvMap()[id] || 0) + 20 * HOUR);
+function keepDue(at) {
+  at = at || now(); const out = [];
+  for (const id in S.studied) {
+    const idea = IX.idea.get(id); if (!keepable(idea)) continue;
+    const e = keepEntry(id); if (!e) continue;
+    const due = keepDueT(id, e);
+    if (due <= at) out.push({ id, idea, e, due, weak: weakChecks([id]).length });
+  }
+  return out.sort((a, b) => ((b.weak > 0) - (a.weak > 0)) || (a.due - b.due) || a.id.localeCompare(b.id));
+}
+function keepNextDue() { let t = 0; for (const id in S.studied) { if (!keepable(IX.idea.get(id))) continue; const e = keepEntry(id); if (!e) continue; const d = keepDueT(id, e); if (d > now() && (!t || d < t)) t = d; } return t; }
+const keepWhen = t => { const d = Math.round((startOfDay(t) - startOfDay(now())) / DAY); return d <= 0 ? 'اليوم' : d === 1 ? 'غدًا' : d === 2 ? 'بعد يومين' : d <= 10 ? `بعد ${AR(d)} أيام` : `بعد ${AR(d)} يومًا`; };
+/* a round stays short: five questions, a few more when much has piled up (eight at most) */
+const keepRoundN = due => (due <= 5 ? due : Math.min(8, 5 + Math.floor((due - 5) / 5)));
+/* ---------- items ---------- */
+function keepCheckItem(idea, k) { const st = idea.micro.steps[k]; return { type: 'check', idea, k, st, q: st.check, ord: shuffle(st.check.options.map((o, i) => i), uid()), picked: null, ok: null }; }
+function keepRecallItem(idea) { return { type: 'recall', idea, r: idea.retrieval, open: false, rated: null, ok: null }; }
+/* which checks of an idea to ask first: the ones still wrong, then the ones not asked for the longest time */
+function keepOrder(idea) { const ch = checksOf(idea.id); return idea.micro.steps.map((st, k) => k).sort((a, b) => (ckWeak(ch[b]) - ckWeak(ch[a])) || (ckLastT(ch[a]) - ckLastT(ch[b])) || (a - b)); }
+function keepBuild(o) {
+  if (o.mode === 'missed') return weakChecks(o.ideas || []).slice(0, o.n || 10).map(w => keepCheckItem(w.idea, w.k));
+  let pool;
+  const blank = { s: 0, due: 0, last: 0, n: 0, ok: 0 };
+  if (o.mode === 'due') { const due = keepDue(); pool = due.slice(0, o.n || keepRoundN(due.length)).map(d => ({ idea: d.idea, e: d.e })); }
+  else if (o.mode === 'ideas') pool = (o.ideas || []).map(id => IX.idea.get(id)).filter(keepable).map(idea => ({ idea, e: keepEntry(idea.id) || blank }));
+  else pool = Object.keys(S.studied).map(id => IX.idea.get(id)).filter(keepable).map(idea => ({ idea, e: keepEntry(idea.id) || blank })).sort((a, b) => ((a.e.last || 0) - (b.e.last || 0)) || (a.e.due - b.e.due)).slice(0, o.n || 6);
+  const per = o.per || (pool.length <= 2 ? 2 : 1);
+  const groups = pool.map(p => {
+    /* a matured idea with nothing left to correct is recalled without options: harder, and it holds longer */
+    if (o.mode !== 'ideas' && p.e.s >= 2 && !weakChecks([p.idea.id]).length && p.idea.retrieval && p.idea.retrieval.q) return [keepRecallItem(p.idea)];
+    return keepOrder(p.idea).slice(0, per).map(k => keepCheckItem(p.idea, k));
+  });
+  const items = []; for (let r = 0; items.length < sum(groups.map(g => g.length)); r++) for (const g of groups) if (g[r]) items.push(g[r]);   /* round-robin: neighbours come from different ideas */
+  return o.mode === 'ideas' && o.n ? items.slice(0, o.n) : items;
+}
+/* ---------- a session ---------- */
+let KEEP = null;
+function keepStart(o) {
+  const items = keepBuild(o);
+  if (!items.length) { toast(o.mode === 'missed' ? 'لا توجد أسئلة خطوات تحتاج تصحيحًا' : Object.keys(S.studied).length ? 'لا شيء مستحق للاسترجاع الآن' : 'لا يوجد ما يُسترجع بعد؛ ادرس فكرة أولًا'); return false; }
+  const base = {};
+  for (const it of items) {
+    const id = it.idea.id; if (base[id]) continue;
+    const e = keepEntry(id) || { s: 0, due: 0, last: 0, n: 0, ok: 0 };
+    base[id] = { s: e.s || 0, due: e.due || 0, n: e.n || 0, ok: e.ok || 0, wasDue: !!S.studied[id] && keepDueT(id, e) <= now() + 2 * HOUR };
+  }
+  KEEP = { id: uid(), t0: now(), src: o.src || 'free', mode: o.mode, items, i: 0, base, sess: {}, ret: o.ret || null, done: false };
+  go('keep', {}); return true;
+}
+function keepRecord(it, ok) {
+  const K = KEEP, c = courseState(), t = now(), id = it.idea.id;
+  it.ok = ok ? 1 : 0;
+  if (it.type === 'check') {
+    const ch = c.checks[id] = c.checks[id] || {}, cur = ch[it.k];
+    if (cur) cur.r = { n: ((cur.r && cur.r.n) || 0) + 1, ok: it.ok, t };
+    else ch[it.k] = { c: it.picked, ok: it.ok, t };   /* a step never answered inside the lesson (the lesson was passed by a test): this is its first answer */
+  }
+  const b = K.base[id], ss = K.sess[id] = K.sess[id] || { n: 0, ok: 0 }; ss.n++; ss.ok += it.ok;
+  if (S.studied[id]) {
+    const e = c.keep[id] = c.keep[id] || { s: b.s, due: b.due, last: 0, n: 0, ok: 0 };
+    e.n = b.n + ss.n; e.ok = b.ok + ss.ok; e.last = t;
+    if (ss.ok < ss.n) { e.s = 0; e.due = keepDueAt(0, t); }                                             /* forgotten: back to tomorrow */
+    else if (b.wasDue) { e.s = Math.min(b.s + 1, INTERVALS.length - 1); e.due = keepDueAt(e.s, t); }    /* retrieved when due: the gap widens */
+    else { e.s = b.s; e.due = b.due; }                                                                  /* extra practice before its time: the schedule stays */
+  }
+  Store.touch();
+}
+function keepFinish() {
+  const K = KEEP; if (!K || K.done) return; K.done = true;
+  const c = courseState(), ans = K.items.filter(x => x.ok != null), n = ans.length, ok = ans.filter(x => x.ok).length;
+  if (n) { c.klog.push({ t: now(), n, ok, src: K.src }); c.klog = c.klog.slice(-60); }
+  if (n >= 3) S.chal[K.id] = { k: 'keep', t: now(), n, ok };   /* a finished round counts as effort (08_engage.js) */
+  if (K.mode === 'due') { c.warmAt = now(); markPlanDone('keep'); }
+  Store.touch();
+}
+function keepLeave() { const K = KEEP, ret = K && K.ret; KEEP = null; if (ret) { UI.stack = []; go(ret.v, ret.p || {}, false); } else tab('home'); }
+ACT.keepGo = d => {
+  const ideas = d.ideas ? d.ideas.split(',').filter(Boolean) : d.lesson ? lessonKeepIdeas(IX.lesson.get(d.lesson)).map(i => i.id) : d.all ? Object.keys(S.studied) : null;
+  const ret = d.lid ? { v: 'chapter', p: d.k != null && d.k !== '' ? { id: d.lid, card: Number(d.k) } : { id: d.lid } } : d.ret ? { v: d.ret, p: d.rid ? { id: d.rid } : {} } : null;
+  keepStart({ mode: d.mode || 'due', src: d.src || 'free', ideas, n: d.n ? Number(d.n) : 0, per: d.per ? Number(d.per) : 0, ret });
+};
+ACT.keepSkip = d => { courseState().warmAt = now(); Store.touch(); UI.params = { id: d.id, nowarm: 1 }; render(); window.scrollTo(0, 0); };
+ACT.keepPick = d => {
+  const K = KEEP; if (!K || K.done) return; const it = K.items[K.i]; if (!it || it.type !== 'check' || it.ok != null) return;
+  it.picked = it.ord[Number(d.j)]; keepRecord(it, it.picked === it.q.answer); render();
+  setTimeout(() => { const el = $('#kpFb'); if (el) el.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); }, 30);
+};
+ACT.keepReveal = () => { const K = KEEP; if (!K) return; const it = K.items[K.i]; if (it && it.type === 'recall') { it.open = true; render(); } };
+ACT.keepRate = d => {
+  const K = KEEP; if (!K || K.done) return; const it = K.items[K.i]; if (!it || it.type !== 'recall' || it.ok != null) return;
+  it.rated = d.v; S.recall[it.idea.id] = { v: d.v, t: now() }; keepRecord(it, d.v === 'full'); render();
+};
+ACT.keepNext = () => { const K = KEEP; if (!K) return; const it = K.items[K.i]; if (it && it.ok == null) return; if (K.i < K.items.length - 1) K.i++; else keepFinish(); render(); window.scrollTo(0, 0); };
+ACT.keepQuit = () => { const K = KEEP; if (!K) { back(); return; } if (K.items.some(x => x.ok != null)) keepFinish(); keepLeave(); };
+ACT.keepLeave = () => keepLeave();
+ACT.keepHub = () => { if (KEEP && (KEEP.done || now() - KEEP.t0 > 2 * HOUR)) { if (!KEEP.done && KEEP.items.some(x => x.ok != null)) keepFinish(); KEEP = null; } go('keep', {}); };
+ACT.keepAgain = () => { const ret = KEEP && KEEP.ret; KEEP = null; if (!keepStart({ mode: 'due', src: 'free', ret })) { if (ret) go(ret.v, ret.p || {}, false); else tab('home'); } };
+ACT.keepOpenStep = d => { const idea = IX.idea.get(d.idea); if (!idea) return; const cards = chapterCards(IX.lesson.get(idea.lesson)); const k = cards.findIndex(c => c.t === 'step' && c.idea.id === idea.id && c.k === Number(d.k)); go('chapter', { id: idea.lesson, card: Math.max(0, k) }); };
+/* ---------- views ---------- */
+const keepDots = K => `<div class="kp-dots" aria-hidden="true">${K.items.map((x, j) => `<i class="${x.ok === 1 ? 'ok' : x.ok === 0 ? 'no' : j === K.i ? 'c' : ''}"></i>`).join('')}</div>`;
+function keepHubHTML() {
+  const due = keepDue(), studied = Object.keys(S.studied).filter(id => keepable(IX.idea.get(id))), weak = weakChecks(studied), nx = keepNextDue(), log = courseState().klog.slice(-5).reverse();
+  const n = keepRoundN(due.length);
+  return `<div class="stack-l cs"><div class="stack"><p class="eyebrow">الاسترجاع السريع</p><h1 class="h1">ثبّت ما درسته قبل أن تنساه</h1>
+      <p class="small muted">سؤال قصير عن كل فكرة درستها، يعود بعد يوم ثم ٣ ثم ٧ ثم ١٤ ثم ٣٠ يومًا. ما تصيب فيه يتباعد موعده، وما تخطئ فيه يعود غدًا. يستعمل أسئلة الخطوات نفسها ببدائل مرتبة ترتيبًا جديدًا.</p></div>
+    <div class="kpis"><div class="kpi"><b class="num">${AR(due.length)}</b><span>أفكار مستحقة الآن</span></div><div class="kpi"><b class="num">${AR(studied.length)}</b><span>أفكار درستها</span></div><div class="kpi"><b class="num">${AR(weak.length)}</b><span>أسئلة خطوات تحتاج تصحيحًا</span></div></div>
+    ${studied.length ? '' : notice('info', 'ادرس أول فكرة في المقرر، وستدخل الجدول تلقائيًا ليعود سؤالها غدًا.')}
+    <div class="btns">${due.length ? `<button class="btn big" data-act="keepGo" data-mode="due" data-src="free" data-ret="keep">${I.play}ابدأ جولة المستحق (${qsN(n)})</button>` : ''}
+      ${weak.length ? `<button class="btn ${due.length ? 'ghost' : ''}" data-act="keepGo" data-mode="missed" data-src="review" data-all="1" data-ret="keep">${I.refresh}صحّح أسئلة الخطوات (${AR(Math.min(weak.length, 10))})</button>` : ''}
+      ${studied.length ? `<button class="btn ghost" data-act="keepGo" data-mode="free" data-src="free" data-ret="keep">${I.target}جولة حرة مما درست</button>` : ''}</div>
+    ${!due.length && studied.length ? notice('good', `لا شيء مستحق الآن.${nx ? ' أقرب موعد: ' + keepWhen(nx) + '.' : ''} الجولة الحرة تدريب إضافي لا يغيّر المواعيد.`) : ''}
+    ${log.length ? `<section class="sec"><div class="sec-h"><h2 class="h2">آخر جولاتك</h2></div><div class="list">${log.map(x => `<div class="li"><span style="color:var(--${x.ok === x.n ? 'ok' : 'warn'})">${x.ok === x.n ? I.check : I.refresh}</span><div class="grow"><div class="t num">${AR(x.ok)} من ${AR(x.n)} صحيحة</div><div class="s">${esc(fmtShort(x.t))} · ${esc(KEEP_SRC[x.src] || '')}</div></div></div>`).join('')}</div></section>` : ''}
+    ${notice('info', 'الاسترجاع السريع تدريب يُبقي الأفكار حاضرة، ولا يُحتسب في قياس الإتقان. الإتقان يُقاس بأدائك على أسئلة جديدة في اختبار الدرس والمراجعات المتباعدة.')}</div>`;
+}
+function keepEndHTML(K) {
+  const c = courseState(), ans = K.items.filter(x => x.ok != null), n = ans.length, ok = ans.filter(x => x.ok).length;
+  const ids = [...new Set(ans.map(x => x.idea.id))];
+  const rows = ids.map(id => {
+    const idea = IX.idea.get(id), ss = K.sess[id] || { n: 0, ok: 0 }, good = ss.ok === ss.n, e = c.keep[id], b = K.base[id];
+    const bad = ans.find(x => x.idea.id === id && !x.ok && x.type === 'check');
+    const sub = !S.studied[id] ? (good ? 'إجابة صحيحة' : 'راجع خطواتها في الدرس') : good ? (b.wasDue ? `ثبتت · تعود ${keepWhen(e.due)}` : (K.mode === 'missed' ? 'صُحّحت · موعدها القادم ' + keepWhen(e.due) : 'صحيحة · موعدها القادم ' + keepWhen(e.due))) : `تعود ${keepWhen(e.due)} لتثبيتها`;
+    return `<div class="li"><span style="color:var(--${good ? 'ok' : 'pen'})">${good ? I.check : I.x}</span><div class="grow"><div class="t small">${esc(idea.title)}</div><div class="s">${esc(sub)}</div></div>${bad ? `<button class="btn quiet sm" data-act="keepOpenStep" data-idea="${id}" data-k="${bad.k}">الخطوة</button>` : ''}</div>`;
+  }).join('');
+  const more = keepDue().length;
+  const retLab = !K.ret ? '' : K.ret.v === 'chapter' ? (K.ret.p && K.ret.p.card != null ? 'عد إلى الدرس' : 'تابع الدرس') : K.ret.v === 'home' ? 'الرئيسية' : 'تم';
+  const head = n && ok === n ? 'أحسنت: كل الإجابات صحيحة' : `${AR(ok)} من ${AR(n)} صحيحة`;
+  const msg = !n ? 'لم تُجب عن أي سؤال في هذه الجولة.' : ok === n ? (K.mode === 'missed' ? 'صحّحت ما أخطأت فيه. يبقى في الجدول ليعود في موعده.' : 'ما أصبت فيه يتباعد موعده القادم.') : 'ما أخطأت فيه يعود غدًا. افتح خطوته الآن إن أردت؛ القراءة بعد الخطأ مباشرة أنفع وقت لها.';
+  return `<div class="stack-l cs kp-end"><div class="stack"><p class="eyebrow">${K.mode === 'missed' ? 'تصحيح أسئلة الخطوات' : 'الاسترجاع السريع'}</p><h1 class="h1">${head}</h1>${keepDots(K)}<p class="small muted">${msg}</p></div>
+    <div class="list">${rows}</div>
+    <div class="btns">${K.ret ? `<button class="btn big" data-act="keepLeave">${I.play}${retLab}</button>` : `<button class="btn big" data-act="keepLeave">${I.home}الرئيسية</button>`}
+      ${K.mode === 'due' && more ? `<button class="btn ghost" data-act="keepAgain">${I.refresh}جولة أخرى (${qsN(keepRoundN(more))})</button>` : ''}</div>
+    <p class="tiny faint">تدريب استرجاع فقط؛ لا يُحتسب في قياس الإتقان ولا يدخل دفتر الأخطاء.</p></div>`;
+}
+VIEWS.keep = () => {
+  const K = KEEP;
+  if (!K) return keepHubHTML();
+  if (K.done) return keepEndHTML(K);
+  const it = K.items[K.i], n = K.items.length, last = K.i === n - 1, answered = it.ok != null;
+  const title = K.mode === 'missed' ? 'تصحيح أسئلة الخطوات' : 'استرجاع سريع';
+  const head = `<div class="gd-head"><div class="row"><button class="btn quiet sm" data-act="keepQuit">${I.back}${K.items.some(x => x.ok != null) ? 'أنهِ الجولة' : 'خروج'}</button><span class="grow"></span><span class="small faint num">${AR(K.i + 1)} من ${AR(n)}</span></div>${keepDots(K)}</div>`;
+  const from = `<p class="tiny faint kp-from">من فكرة «${esc(it.idea.title)}»${it.type === 'check' ? ` · الخطوة «${esc(it.st.t)}»` : ''}</p>`;
+  let body;
+  if (it.type === 'check') {
+    const q = it.q;
+    const opts = it.ord.map((oi, j) => { let cls = 'opt'; if (answered) { if (oi === q.answer) cls += ' right'; else if (oi === it.picked) cls += ' wrong'; cls += ' locked'; } return `<button class="${cls}" data-act="keepPick" data-j="${j}" ${answered ? 'aria-disabled="true"' : ''}><span class="bub">${LET[j]}</span><span>${esc(q.options[oi])}</span></button>`; }).join('');
+    const fb = !answered ? '' : `<div id="kpFb" class="stack"><div class="cs-why ${it.ok ? 'ok' : 'no'}"><div class="verdict ${it.ok ? 'ok' : 'no'}">${it.ok ? I.check : I.x}${it.ok ? 'صحيح' : 'ليس هذا'}</div>${it.ok ? '' : `<div class="ans">الصحيح: ${esc(q.options[q.answer])}</div>`}<div class="read">${md(q.why)}</div></div>
+      ${it.ok ? from : `<details class="kx kp-step" open><summary><b>الخطوة كما شُرحت</b><span class="tiny faint">${esc(it.st.t)}</span></summary><div class="kx-b stack"><div class="read cs-text">${md(it.st.text)}</div>${engSafe(() => memoHTML(it.idea))}<div class="row">${from}<span class="grow"></span><button class="btn quiet sm" data-act="keepOpenStep" data-idea="${it.idea.id}" data-k="${it.k}">افتحها في الدرس</button></div></div></details>`}</div>`;
+    body = `<div class="cs-check stack kp-q"><div class="cs-check-h">${I.target}<span>${K.mode === 'missed' ? 'أعد المحاولة' : 'من ذاكرتك'}</span><span class="grow"></span><span class="tiny faint">لا يُحتسب في قياس الإتقان</span></div>
+      <div class="q-stem" style="font-size:16.5px">${esc(q.q)}</div><div class="opts" role="group" aria-label="البدائل">${opts}</div></div>${fb}`;
+  } else {
+    const r = it.r;
+    body = `<div class="card stack cs-recall kp-q"><p class="eyebrow">من ذاكرتك، دون بدائل</p><b class="read" style="font-weight:700">${esc(r.q)}</b>
+      ${!it.open ? `<p class="small muted">أجب في ذهنك أو بصوت مسموع أولًا، ثم اكشف.</p><div><button class="btn" data-act="keepReveal">${I.eye}أجبتُ… اكشف الإجابة</button></div>`
+        : `<div class="reveal read">${esc(r.a)}</div>${answered ? '' : `<div class="stack"><span class="small">قارن بصدق: كيف كان تذكّرك؟</span><div class="btns">${[['full', 'كاملة'], ['part', 'جزئية'], ['none', 'لم أتذكر']].map(([k, lab]) => `<button class="btn ghost sm" data-act="keepRate" data-v="${k}">${lab}</button>`).join('')}</div></div>`}`}</div>
+      ${answered ? `<div id="kpFb" class="stack">${notice(it.ok ? 'good' : 'warn', it.ok ? 'تذكّر كامل: يتباعد موعدها القادم.' : 'تعود غدًا. اقرأ الإجابة مرة أخرى الآن بتمعن.')}${from}</div>` : ''}`;
+  }
+  const nav = `<div class="gd-nav"><span></span>${answered ? `<button class="btn" data-act="keepNext">${last ? 'النتيجة' : 'التالي'}${I.next}</button>` : `<button class="btn ghost" disabled>${it.type === 'check' ? 'أجب أولًا' : it.open ? 'قيّم تذكّرك' : 'اكشف أولًا'}${I.next}</button>`}</div>`;
+  return `<div class="stack-l cs kp">${head}<div class="stack"><p class="eyebrow">${title}</p></div>${body}${nav}</div>`;
+};
+/* ---------- hooks into the lesson ---------- */
+/* before continuing a lesson: a short retrieval of what was studied a day or more ago */
+function keepWarmHTML(l) {
+  const c = courseState(); if (now() - (c.warmAt || 0) < KEEP_WARM_GAP) return '';
+  const due = keepDue(); if (!due.length) return '';
+  const n = keepRoundN(due.length), pos = c.pos[l.id];
+  return `<div class="stack-l cs kp-warm"><div class="gd-head"><div class="row"><button class="btn quiet sm" data-act="tab" data-t="course">${I.back}المقرر</button></div><div class="tiny faint">${esc(l.title)}</div></div>
+    <section class="hero stack"><p class="eyebrow">${I.refresh} قبل أن ${pos && pos.card > 0 ? 'تكمل' : 'تبدأ'} الدرس</p><h1 class="h1">استرجاع سريع: ${qsN(n)} مما درست</h1>
+      <p class="muted">حان موعد استرجاع ${ideasGen(due.length)} مما درسته قبل يوم أو أكثر${n < due.length ? `؛ نبدأ بـ${AR(n)} منها` : ''}. سؤال قصير عن كل فكرة الآن يثبّتها أكثر من إعادة قراءتها، ويأخذ نحو دقيقتين.</p>
+      <button class="btn big" data-act="keepGo" data-mode="due" data-src="warm" data-lid="${l.id}">${I.play}ابدأ الاسترجاع</button>
+      <button class="btn ghost" data-act="keepSkip" data-id="${l.id}">تخطَّ إلى الدرس</button>
+      <p class="tiny faint">تدريب استرجاع فقط؛ لا يُحتسب في قياس الإتقان. يبقى ما تتخطاه مستحقًا في خطة اليوم.</p></section></div>`;
+}
+/* on the idea's closing card: repair the step checks answered wrong while the idea is fresh */
+function keepWrapHTML(idea, l, k) {
+  const w = weakChecks([idea.id]), ch = checksOf(idea.id);
+  const fixed = Object.values(ch).filter(x => x && !x.ok && x.r && x.r.ok).length;
+  if (w.length) return csBox('pen', I.refresh, 'صحّح قبل أن تغادر', `<p class="small" style="margin:0 0 8px">أخطأت في ${plural(w.length, 'سؤال واحد', 'سؤالين', 'أسئلة', 'سؤالًا')} من أسئلة خطوات هذه الفكرة. أعد المحاولة الآن ببدائل مرتبة ترتيبًا جديدًا؛ تصحيح الخطأ وهو قريب يمنع ترسخه.</p><button class="btn sm" data-act="keepGo" data-mode="missed" data-src="wrap" data-ideas="${idea.id}" data-lid="${l.id}" data-k="${k}">${I.refresh}أعد المحاولة (${qsN(w.length)})</button>`);
+  if (fixed) return notice('good', fixed === 1 ? 'صحّحت سؤال الخطوة الذي أخطأت فيه أول مرة.' : fixed === 2 ? 'صحّحت سؤالَي الخطوتين اللذين أخطأت فيهما أول مرة.' : `صحّحت ${AR(fixed)} من أسئلة الخطوات التي أخطأت فيها أول مرة.`);
+  return '';
+}
+/* on the lesson's review card: what to do before the lesson test */
+/* the ideas of a lesson whose steps the learner has gone through (only those can be retrieved) */
+const lessonKeepIdeas = l => ideasOf(l.id).filter(i => keepable(i) && (S.studied[i.id] || Object.keys(checksOf(i.id)).length));
+function lessonReadiness(l) {
+  const ideas = ideasOf(l.id), ids = ideas.map(i => i.id);
+  const studied = ideas.filter(i => S.studied[i.id]).length;
+  const weak = weakChecks(ids);
+  const ev = evidence(q => ids.includes(q.idea)).slice(-30), evN = ev.length, evOk = ev.filter(a => a.ok).length;
+  const byIdea = ideas.map(i => { const e = ev.filter(a => getQ(a.q).idea === i.id); return { idea: i, n: e.length, ok: e.filter(a => a.ok).length }; });
+  const soft = byIdea.filter(x => x.n === 0 || x.ok < x.n);
+  return { ideas, ids, studied, weak, evN, evOk, acc: evN ? evOk / evN : null, soft, ready: studied === ideas.length && !weak.length && evN >= ideas.length && evOk / evN >= COURSE.passPct };
+}
+function keepReviewHTML(l, k) {
+  const R = lessonReadiness(l), n = R.ideas.length, bankK = chapterCards(l).findIndex(c => c.t === 'bank');
+  const row = (ok, t, s, btn) => `<div class="li kp-rd"><span class="kp-tick ${ok ? 'ok' : ''}">${ok ? I.check : I.circle}</span><div class="grow"><div class="t small">${t}</div>${s ? `<div class="s">${s}</div>` : ''}</div>${btn || ''}</div>`;
+  const firstUn = R.ideas.find(i => !S.studied[i.id]);
+  const rows = [
+    row(R.studied === n, `درست ${AR(R.studied)} من ${AR(n)} أفكار حتى الخلاصة`, R.studied === n ? '' : `بقي: ${esc(R.ideas.filter(i => !S.studied[i.id]).map(i => i.title).join('، '))}`, firstUn ? `<button class="btn ghost sm" data-act="chGo" data-id="${l.id}" data-k="${chapterCardFor(l.id, firstUn.id)}">أكملها</button>` : ''),
+    row(!R.weak.length, R.weak.length ? (R.weak.length === 1 ? 'سؤال خطوة واحد يحتاج تصحيحًا' : R.weak.length === 2 ? 'سؤالا خطوتين يحتاجان تصحيحًا' : `${AR(R.weak.length)} من أسئلة الخطوات تحتاج تصحيحًا`) : 'لا أخطاء غير مصححة في أسئلة الخطوات', R.weak.length ? 'أعدها ببدائل مرتبة ترتيبًا جديدًا قبل الاختبار' : '', R.weak.length ? `<button class="btn sm" data-act="keepGo" data-mode="missed" data-src="review" data-ideas="${R.ids.join(',')}" data-lid="${l.id}" data-k="${k}">${I.refresh}صحّحها</button>` : ''),
+    row(R.acc != null && R.acc >= COURSE.passPct && !R.soft.some(x => x.n === 0), R.evN ? `دقتك في تدريب الدرس على أسئلة جديدة ${PCT(R.acc)} (${AR(R.evOk)} من ${AR(R.evN)})` : 'لم تتدرب بعد على أسئلة جديدة من هذا الدرس', R.soft.length ? `تحتاج تدريبًا أكثر: ${esc(R.soft.slice(0, 3).map(x => x.idea.title.split(/[:،(]/)[0].trim()).join('، '))}${R.soft.length > 3 ? ' وغيرها' : ''}` : `اختبار الدرس يطلب ${PCT(COURSE.passPct)} فأعلى`, R.soft.length && bankK >= 0 ? `<button class="btn ghost sm" data-act="chGo" data-id="${l.id}" data-k="${bankK}">أسئلة الدرس</button>` : ''),
+  ].join('');
+  return `<section class="stack kp-ready"><p class="eyebrow">جاهزيتك لاختبار الدرس</p><div class="list">${rows}</div>
+    <div class="btns"><button class="btn ghost sm" data-act="keepGo" data-mode="ideas" data-src="lesson" data-lesson="${l.id}" data-per="1" data-lid="${l.id}" data-k="${k}">${I.target}جولة استرجاع على أفكار الدرس (${qsN(lessonKeepIdeas(l).length)})</button>${goBtn('ملخص الدرس في صفحة', 'summary', { id: l.id }, 'btn ghost sm', I.layers)}</div>
+    <p class="tiny faint">هذه مؤشرات تنظيمية تساعدك على الاستعداد، وليست شرطًا لدخول الاختبار.</p></section>`;
+}
+/* the day plan's retrieval step and the home line */
+function keepPlanStep() {
+  const due = keepDue(); if (!due.length) return null;
+  const n = keepRoundN(due.length);
+  return { k: 'keep', title: `استرجاع سريع: ${qsN(n)} مما درست`, why: `حان موعد استرجاع ${ideasGen(due.length)} مما درست؛ دقيقتان الآن تغني عن إعادة دراستها لاحقًا`, min: Math.max(2, Math.round(n * 0.6)) };
+}
+/* on the gate card: the step checks still wrong can be corrected first (optional) */
+function gateHintHTML(l) {
+  if (courseLessonDone(l.id)) return '';
+  const ids = ideasOf(l.id).map(i => i.id), w = weakChecks(ids); if (!w.length) return '';
+  const k = chapterCards(l).length - 1;
+  return notice('warn', `<b>قبل أن تبدأ:</b> ${w.length === 1 ? 'سؤال خطوة واحد أخطأت فيه ولم تصحّحه' : w.length === 2 ? 'سؤالا خطوتين أخطأت فيهما ولم تصحّحهما' : `${AR(w.length)} من أسئلة الخطوات أخطأت فيها ولم تصحّحها`}. تصحيحها الآن يأخذ دقائق قليلة.<div style="margin-top:8px"><button class="btn sm" data-act="keepGo" data-mode="missed" data-src="review" data-ideas="${ids.join(',')}" data-lid="${l.id}" data-k="${k}">${I.refresh}صحّحها أولًا</button></div>`);
+}
+/* on the course page: one line that says whether a retrieval is due */
+function keepCourseHTML() {
+  const studied = Object.keys(S.studied).filter(id => keepable(IX.idea.get(id))); if (!studied.length) return '';
+  const due = keepDue(), nx = keepNextDue();
+  return `<section class="card row kp-line"><span class="gd-ic">${I.refresh}</span><div class="grow"><b>الاسترجاع السريع</b><div class="tiny faint">${due.length ? `حان موعد استرجاع ${ideasGen(due.length)} مما درست` : `لا شيء مستحق الآن${nx ? ' · القادم ' + keepWhen(nx) : ''}`}</div></div>${due.length ? `<button class="btn sm" data-act="keepGo" data-mode="due" data-src="free" data-ret="course">${I.play}ابدأ</button>` : `<button class="btn ghost sm" data-act="keepHub">افتح</button>`}</section>`;
+}
+/* on a lesson's opening card: what the diagnostic already showed about it */
+function lessonDiagHTML(l) {
+  const ids = new Set(ideasOf(l.id).map(i => i.id));
+  const es = deferredErrors().filter(e => { const q = getQ(e.q); return q.idea ? ids.has(q.idea) : l.indicators.includes(q.ind); });
+  if (!es.length) return '';
+  const titles = [...new Set(es.map(e => getQ(e.q).idea).filter(Boolean).map(id => IX.idea.get(id).title.split(/[:،(]/)[0].trim()))];
+  return notice('info', `<b>من تشخيصك السابق:</b> ${es.length === 1 ? 'سؤال واحد أخطأت فيه أو تردّدت' : es.length === 2 ? 'سؤالان أخطأت فيهما أو تردّدت' : `${AR(es.length)} أسئلة أخطأت فيها أو تردّدت`} من موضوعات هذا الدرس${titles.length ? ` (${esc(titles.slice(0, 3).join('، '))}${titles.length > 3 ? ' وغيرها' : ''})` : ''}. ستتعلمها هنا خطوة خطوة، ثم يعود سؤال تحقق جديد بعد دراسة الدرس.`);
+}
+/* ---- 04h_aids.js ---- */
+/* ================= learning aids inside the course: memory keys, help on a step, the lesson summary page =================
+   idea.memo = {key, lines?:[{text, how?}], image?}  a memory key written from the idea's own reviewed material (content/memo/*.json);
+               ideas without one simply show no key (coverage is reported under «المصادر والتغطية»).
+   The summary page of a lesson is assembled from fields that already exist and were already reviewed: nothing new is stated in it. */
+TAB_OF.summary = 'course';
+/* ---------- memory keys ---------- */
+function memoHTML(idea) {
+  const m = idea.memo; if (!m) return '';
+  return `<div class="cs-box memo"><div class="cs-box-h">${I.key}<span>مفتاح الحفظ</span></div><div class="read mm-key">${md(m.key)}</div>${(m.lines || []).map(x => `<div class="mm-mn"><b>${md(x.text)}</b>${x.how ? `<span>${md(x.how)}</span>` : ''}</div>`).join('')}${m.image ? `<div class="mm-img">${I.eye}<span>${md(m.image)}</span></div>` : ''}</div>`;
+}
+function memoLineHTML(idea) { const m = idea.memo; return m ? `<div class="mm-line">${I.key}<span><b>مفتاح الحفظ:</b> ${md(m.key)}</span></div>` : ''; }
+function memoCoverage() {
+  const have = C.ideas.filter(i => i.memo).length;
+  const lessons = C.lessons.filter(l => ideasOf(l.id).length && ideasOf(l.id).every(i => i.memo));
+  return { have, total: C.ideas.length, lessons };
+}
+/* how far the keys reach, in words: stated wherever the keys are mentioned, so a partial coverage is never presented as complete */
+function memoScopeText() { const m = memoCoverage(); return m.have >= m.total ? 'لكل أفكار المقرر' : `لـ${AR(m.have)} فكرة من ${AR(m.total)}`; }
+/* ---------- «لم تتضح الخطوة؟»: the same idea in other words, another example, or the assistant on this very step ---------- */
+function stepHelpHTML(idea, cd) {
+  const hx = String(UI.params.hx || ''), kind = hx.split(':')[0];
+  const ex = [idea.transfer].concat(idea.more || []).filter(x => x && x.prompt && x.reveal);
+  const btn = (k, lab, ic) => `<button class="chip tog" data-act="chHelp" data-h="${k}" aria-pressed="${kind === k}">${ic}${lab}</button>`;
+  let out = '';
+  if (kind === 's') out = `<div class="box stack cs-helpout"><p class="eyebrow">بأسلوب آخر</p><div class="read">${md(idea.simpler)}</div></div>`;
+  else if (kind === 'e' && ex.length) {
+    const n = (Number(hx.split(':')[1]) || 0) % ex.length, x = ex[n];
+    out = `<div class="box stack cs-helpout"><p class="eyebrow">مثال آخر${ex.length > 1 ? ` · ${AR(n + 1)} من ${AR(ex.length)}` : ''}</p><div class="read"><b>${esc(x.prompt)}</b></div><details class="cs-helprv"><summary class="small">فكّر ثم اكشف الإجابة</summary><div class="read" style="margin-top:8px">${esc(x.reveal)}</div></details>${ex.length > 1 ? `<div><button class="btn quiet sm" data-act="chHelp" data-h="e:${(n + 1) % ex.length}">مثال غيره</button></div>` : ''}</div>`;
+  } else if (kind === 'ai') {
+    const key = idea.id + ':' + cd.k, saved = UI.aiStep && UI.aiStep.key === key ? UI.aiStep.html : '';
+    out = `<div id="aiStep" class="cs-helpout">${saved}</div>`;
+  }
+  return `<div class="cs-help stack"><div class="row"><span class="small faint">لم تتضح الخطوة؟</span>${idea.simpler ? btn('s', 'بأسلوب آخر', I.bulb) : ''}${ex.length ? btn('e', 'مثال آخر', I.spark) : ''}${AI.st !== 'off' ? btn('ai', 'اسأل المساعد', I.head) : ''}</div>${out}</div>`;
+}
+ACT.chHelp = d => {
+  const cur = String(UI.params.hx || ''), h = String(d.h || ''), kind = h.split(':')[0];
+  UI.params.hx = (cur.split(':')[0] === kind && !h.includes(':')) ? '' : (h === 'e' ? 'e:0' : h);
+  render();
+  const out = $('.cs-helpout'); if (out) out.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  if (UI.params.hx !== 'ai') return;
+  const l = IX.lesson.get(UI.params.id); const cards = l ? chapterCards(l) : []; const cd = cards[Number(UI.params.card)];
+  if (!cd || cd.t !== 'step') return;
+  const key = cd.idea.id + ':' + cd.k; if (UI.aiStep && UI.aiStep.key === key && UI.aiStep.html) return;
+  const prompt = `${AI_RULES}\n\n${ideaMaterial(cd.idea)}\n\nالخطوة التي لم تتضح لي من الشرح المبسط في المنصة: «${cd.st.t}»\n${cd.st.text}\n\nالمطلوب: اشرح هذه الخطوة وحدها بأسلوب أبسط ومختلف عن نصها، بمثال واحد قصير من الحياة المدرسية (ومن تدريس الأحياء إن ناسب)، ثم اختم بسؤال قصير أتحقق به من فهمي متبوعًا بإجابته في سطر.`;
+  Promise.resolve(AI.run('aiStep', prompt, true)).then(() => { const box = document.getElementById('aiStep'); if (box && UI.view === 'chapter' && UI.params.hx === 'ai') UI.aiStep = { key, html: box.innerHTML }; });
+};
+/* ---------- the lesson summary page ---------- */
+function summaryIdeaHTML(idea, o) {
+  const m = idea.micro || {};
+  return `<section class="ls-idea"><div class="ls-h"><span class="ls-n num">${AR(idea.n)}</span><h2 class="h2">${esc(idea.title)}</h2>${o.print ? '' : `<button class="btn quiet sm" data-act="go" data-v="chapter" data-p='${esc(JSON.stringify({ id: idea.lesson, card: chapterCardFor(idea.lesson, idea.id) }))}'>خطواتها</button>`}</div>
+    ${m.plain ? `<p class="read ls-plain">${md(m.plain)}</p>` : ''}
+    ${idea.diagram ? diagramHTML(idea.diagram) : ''}
+    ${(idea.summary || []).length ? `<ul class="read ls-sum">${idea.summary.map(s => `<li>${md(s)}</li>`).join('')}</ul>` : ''}
+    ${memoHTML(idea)}
+    ${m.pitfall ? `<div class="ls-note pen">${I.alert}<div><b>الخطأ الشائع:</b> ${md(m.pitfall)}</div></div>` : ''}
+    ${idea.examNote ? `<div class="ls-note teal">${I.target}<div><b>في الاختبار:</b> ${md(idea.examNote)}</div></div>` : ''}
+    ${idea.compare ? `<details class="kx ls-cmp" ${o.print ? 'open' : ''}><summary><b>قارن</b><span class="tiny faint">${esc(idea.compare.title || '')}</span></summary><div class="kx-b">${compareHTML(idea.compare)}</div></details>` : ''}
+    ${idea.card ? `<details class="ls-card" ${o.print ? 'open' : ''}><summary><span class="eyebrow">اختبر نفسك قبل أن تكشف</span><b>${esc(idea.card.front)}</b></summary><div class="ls-back">${cardText(idea.card.back)}</div></details>` : ''}
+  </section>`;
+}
+function summaryBodyHTML(l, o = {}) {
+  const e = courseIndex().byId[l.id], ideas = ideasOf(l.id);
+  return `<div class="stack"><p class="eyebrow">ملخص الدرس${e ? ` · الوحدة ${AR(e.unit.n)}: ${esc(e.unit.title)}` : ''}</p><h1 class="h1">${esc(l.title)}</h1>
+      <p class="small muted">${plural(ideas.length, 'فكرة واحدة', 'فكرتان', 'أفكار', 'فكرة')}، لكل منها: معناها ببساطة، وشكلها، وخلاصتها، والخطأ الشائع فيها، وكيف تأتي في الاختبار. الملخص للمراجعة السريعة؛ الشرح خطوة خطوة في الدرس نفسه.</p></div>
+    ${o.head || ''}
+    ${ideas.map(i => summaryIdeaHTML(i, o)).join('')}
+    ${l.examNote ? `<section class="ls-idea"><div class="ls-h"><span class="ls-n">${I.shield}</span><h2 class="h2">كيف يأتي هذا الدرس في الاختبار</h2></div><div class="read">${md(l.examNote)}</div></section>` : ''}
+    <p class="tiny faint">مجموع من شرح المنصة المراجَع دون إضافة؛ مصادر كل فكرة وصفحاتها في صفحة الفكرة. قراءة الملخص لا تُحتسب تعلمًا ولا إتقانًا.</p>`;
+}
+VIEWS.summary = ({ id }) => {
+  const l = IX.lesson.get(id); if (!l) return notice('bad', 'الدرس غير موجود');
+  if (l.status !== 'complete') return `<div class="stack-l">${notice('warn', 'محتوى هذا الدرس قيد الإعداد.')}</div>`;
+  const open = courseOpen(id) || !!courseLessonDone(id), ki = lessonKeepIdeas(l);
+  const head = `<div class="btns ls-actions"><button class="btn sm" data-act="summarySave" data-id="${l.id}">${I.down}نزّله للطباعة</button>${ki.length ? `<button class="btn ghost sm" data-act="keepGo" data-mode="ideas" data-src="lesson" data-lesson="${l.id}" data-per="1" data-ret="summary" data-rid="${l.id}">${I.target}اختبر نفسك فيه (${qsN(ki.length)})</button>` : ''}${open ? goBtn('إلى الدرس', 'chapter', { id: l.id }, 'btn ghost sm', I.play) : ''}</div><div id="summaryOut"></div>`;
+  return `<div class="stack-l cs ls">${summaryBodyHTML(l, { head })}</div>`;
+};
+/* every lesson's summary, by unit */
+TAB_OF.summaries = 'more';
+VIEWS.summaries = () => {
+  const mc = memoCoverage();
+  return `<div class="stack-l"><div class="stack"><p class="eyebrow">ملخصات الدروس</p><h1 class="h1">ملخص لكل درس في صفحة</h1><p class="small muted">للمراجعة السريعة والطباعة. كل ملخص مجموع من شرح المنصة المراجَع دون إضافة. قراءته لا تُحتسب تعلمًا ولا إتقانًا، ولا تفتح درسًا مقفلًا في المقرر.</p></div>
+    ${COURSE.units.map(u => `<section class="sec"><div class="sec-h"><h2 class="h2">${AR(u.n)}. ${esc(u.title)}</h2><button class="btn quiet sm" data-act="summarySave" data-unit="${u.id}">${I.down}ملخصات الوحدة</button></div><div class="list">${u.lessons.map((x, i) => { const l = IX.lesson.get(x.id); if (!l) return ''; const ideas = ideasOf(x.id), dn = courseLessonDone(x.id); return `<div class="li tap" data-act="go" data-v="summary" data-p='${esc(JSON.stringify({ id: x.id }))}'><span class="chip num">${AR(i + 1)}</span><div class="grow"><div class="t small">${esc(l.title)}</div><div class="s">${plural(ideas.length, 'فكرة واحدة', 'فكرتان', 'أفكار', 'فكرة')}${ideas.length && ideas.every(z => z.memo) ? ' · بمفاتيح حفظ' : ''}${dn ? ' · مجتاز' : ''}</div></div><span class="faint">${I.next}</span></div>`; }).join('')}</div></section>`).join('')}
+    <p class="tiny faint">${mc.have >= mc.total ? 'لكل فكرة مفتاح حفظ مكتوب من مادتها نفسها.' : `مفاتيح الحفظ مكتوبة حتى الآن لـ${AR(mc.have)} فكرة من ${AR(mc.total)}؛ بقية الملخصات تظهر دونها إلى أن تُكتب.`}</p></div>`;
+};
+/* a standalone page for printing: one lesson, or every lesson of a unit */
+ACT.summarySave = async d => {
+  const u = d.unit ? COURSE.units.find(x => x.id === d.unit) : null;
+  const ls = u ? u.lessons.map(x => IX.lesson.get(x.id)).filter(l => l && l.status === 'complete') : [IX.lesson.get(d.id)].filter(Boolean);
+  if (!ls.length) return;
+  toast('يُجهَّز الملخص…');
+  const title = u ? `ملخصات الوحدة ${AR(u.n)}: ${u.title}` : 'ملخص: ' + ls[0].title;
+  const css = $$('style').map(s => s.textContent).join('\n');
+  const O = '<', doc = `${O}!doctype html>${O}html lang="ar" dir="rtl" data-theme="light">${O}head>${O}meta charset="utf-8">${O}meta name="viewport" content="width=device-width,initial-scale=1">${O}title>${esc(title)}${O}/title>`
+    + `${O}link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&family=Reem+Kufi:wght@500;700&display=swap">`
+    + `${O}style>${css}${O}/style>${O}style>body{background:#fff}.ls-doc{max-width:820px;margin:0 auto;padding:20px 16px 40px;display:flex;flex-direction:column;gap:20px}.ls-print-h{display:flex;justify-content:space-between;gap:12px;font-size:12px;color:var(--ink-3);border-bottom:1px solid var(--rule);padding-bottom:6px}.ls-break{break-before:page;border-top:3px double var(--rule-2);margin-top:20px;padding-top:8px}@media print{.ls-doc{padding:0}.ls-break{border-top:0;margin-top:0}.ls-h,.ls-note,.ls-card,.memo{break-inside:avoid}}${O}/style>${O}/head>`
+    + `${O}body>${O}div class="ls-doc cs ls">${O}div class="ls-print-h">${O}span>إتقان — الرخصة المهنية التربوي العام${O}/span>${O}span>${esc(fmtDate(now()))}${O}/span>${O}/div>${ls.map((l, i) => (i ? `${O}div class="ls-break">${O}/div>` : '') + summaryBodyHTML(l, { print: true })).join('')}${O}/div>${O}/body>${O}/html>`;
+  const name = (u ? `ملخصات-الوحدة-${u.n}-` + u.title : 'ملخص-' + ls[0].title.split(/[:،(]/)[0].trim()).replace(/\s+/g, '-').slice(0, 48) + '.html';
+  const r = await saveFile(name, new Blob([doc], { type: 'text/html;charset=utf-8' }));
+  if (r === 'saved') toast('حُفظ الملخص؛ افتحه واطبعه من المتصفح');
+  else if (r === 'declined') toast('أُلغي الحفظ');
+  else if (r === 'busy') toast('نافذة حفظ مفتوحة بالفعل؛ أكملها أولًا');
+  else { const o = $('#summaryOut'); const msg = 'التنزيل غير متاح في هذه النافذة. الملخص نفسه أمامك هنا، ويمكنك فتح إتقان من متصفح الحاسوب لتنزيله.'; if (o) o.innerHTML = notice('warn', msg); else toast(msg); }
+};
 /* ---- 05_views_a.js ---- */
 /* ================= views: home, onboarding, map, lesson, idea ================= */
 function greeting() { const h = new Date().getHours(); return h < 12 ? 'صباح الخير' : h < 17 ? 'مساء الخير' : 'مساء النور'; }
@@ -3365,18 +3884,18 @@ VIEWS.home = () => {
   const p = S.profile;
   if (!p.onboarded) setTimeout(openOnboarding, 0);
   const plan = planToday();
-  const firstOpen = plan.steps.findIndex((s, i) => !plan.done.includes(i));
+  const firstOpen = planNext(plan), optOpen = planOptNext(plan);
   const rest = !studyDayToday();
   const pc = pace();
   const cur = S.current;
-  const stepsHTML = plan.steps.map((s, i) => `<div class="step ${plan.done.includes(i) ? 'done' : ''}"><span class="k">${plan.done.includes(i) ? I.check : AR(i + 1)}</span><div><div class="t">${esc(s.title)}</div><div class="why">لماذا؟ ${esc(s.why)}</div></div><span class="m">${AR(Math.round(s.min))} د</span></div>`).join('');
-  const total = sum(plan.steps.map(s => s.min));
+  const stepsHTML = plan.steps.map((s, i) => `<div class="step ${plan.done.includes(i) ? 'done' : ''}${s.opt ? ' optional' : ''}"><span class="k">${plan.done.includes(i) ? I.check : s.opt ? '+' : AR(i + 1)}</span><div><div class="t">${s.opt ? '<span class="chip">إن بقي وقت</span> ' : ''}${esc(s.title)}</div><div class="why">لماذا؟ ${esc(s.why)}</div></div><span class="m">${AR(Math.round(s.min))} د</span></div>`).join('');
+  const total = sum(plan.steps.filter(s => !s.opt).map(s => s.min));
   const hero = `<section class="hero stack" aria-labelledby="todayH">
     <div class="row"><div class="grow"><p class="eyebrow">${esc(fmtDate(now()))}${fmtHijri(now()) ? ' · ' + esc(fmtHijri(now())) : ''}</p><h1 class="h1" id="todayH">${greeting()} يا ${esc(p.name || '')}، هذه خطة اليوم</h1></div></div>
     ${rest ? notice('info', 'اليوم ليس من أيام دراستك المحددة. يمكنك تنفيذ الخطة أو الاكتفاء بالمراجعات.') : ''}
     <div class="steps">${stepsHTML}</div>
     <div class="row small muted"><span>${I.clock}</span><span class="grow">مدة تقديرية ${AR(Math.round(total))} دقيقة من وقتك اليومي (${AR(p.dailyMin)} د)</span><button class="btn quiet sm" data-act="replan">${I.refresh}أعد بناء الخطة</button></div>
-    ${firstOpen >= 0 ? `<button class="btn big" data-act="startStep" data-i="${firstOpen}">${I.play}${firstOpen === 0 && !plan.done.length ? 'ابدأ جلسة اليوم' : 'تابع جلسة اليوم'}</button>` : (engSafe(() => engDoneCardHTML(true)) || notice('good', 'أنهيت خطة اليوم. أي تدريب إضافي يُحتسب، والمراجعات القادمة مجدولة.'))}
+    ${firstOpen >= 0 ? `<button class="btn big" data-act="startStep" data-i="${firstOpen}">${I.play}${firstOpen === 0 && !plan.done.length ? 'ابدأ جلسة اليوم' : 'تابع جلسة اليوم'}</button>` : (engSafe(() => engDoneCardHTML(true)) || notice('good', 'أنهيت خطة اليوم. أي تدريب إضافي يُحتسب، والمراجعات القادمة مجدولة.')) + (optOpen >= 0 ? `<button class="btn ghost" data-act="startStep" data-i="${optOpen}">${I.plus}إن بقي وقت: ${esc(plan.steps[optOpen].title)}</button>` : '')}
   </section>`;
   const resume = cur ? `<div class="card row"><span style="color:var(--accent)">${I.timer}</span><div class="grow"><b>نشاط غير مكتمل:</b> ${esc(cur.title)}<div class="tiny faint">${AR(Object.values(cur.ans).filter(a => a.c != null).length)} من ${AR(cur.qids.length)} · يُستأنف من حيث توقفت</div></div><button class="btn sm" data-act="resume">استئناف</button></div>` : '';
   // weak points
@@ -3389,8 +3908,8 @@ VIEWS.home = () => {
     return `<div class="li"><span style="color:var(--warn)">${I.alert}</span><div class="grow"><div class="t">${esc(w.title)}</div><div class="s">${sub}</div></div>${act}</div>`;
   }).join('')}</div>` : `<p class="muted small">${S.diag.done ? 'لا توجد نقاط ضعف واضحة الآن.' : 'ستظهر بعد الاختبار التشخيصي.'}</p>`;
   // due reviews
-  const di = dueIdeas(), de = dueErrors();
-  const dueHTML = (di.length || de.length) ? `<div class="list">${di.map(i => `<div class="li"><span style="color:var(--due)">${I.clock}</span><div class="grow"><div class="t">${esc(i.title)}</div><div class="s">مراجعة متباعدة · المرحلة ${AR((S.reviews[i.id].stage || 0) + 1)} من ٥</div></div></div>`).join('')}${de.length ? `<div class="li tap" data-act="tab" data-t="errors"><span style="color:var(--pen)">${I.note}</span><div class="grow"><div class="t">${plural(de.length, 'خطأ واحد', 'خطآن', 'أخطاء', 'خطأً')} بانتظار العلاج</div><div class="s">كل خطأ له إجراء علاجي وسؤال تحقق جديد</div></div><span class="faint">${I.next}</span></div>` : ''}</div>` : `<p class="muted small">لا مراجعات مستحقة اليوم.</p>`;
+  const di = dueIdeas(), de = dueErrors(), kd = engSafe(() => keepDue()) || [], df = deferredErrors().length;
+  const dueHTML = (di.length || de.length || kd.length || df) ? `<div class="list">${di.map(i => `<div class="li"><span style="color:var(--due)">${I.clock}</span><div class="grow"><div class="t">${esc(i.title)}</div><div class="s">مراجعة متباعدة · المرحلة ${AR((S.reviews[i.id].stage || 0) + 1)} من ٥</div></div></div>`).join('')}${kd.length ? `<div class="li tap" data-act="keepGo" data-mode="due" data-src="free" data-ret="home"><span style="color:var(--teal)">${I.refresh}</span><div class="grow"><div class="t">استرجاع سريع: ${plural(kd.length, 'فكرة واحدة', 'فكرتان', 'أفكار', 'فكرة')} مما درست</div><div class="s">سؤال قصير عن كل فكرة يُبقيها حاضرة · نحو دقيقتين</div></div><span class="faint">${I.next}</span></div>` : ''}${de.length ? `<div class="li tap" data-act="tab" data-t="errors"><span style="color:var(--pen)">${I.note}</span><div class="grow"><div class="t">${plural(de.length, 'خطأ واحد', 'خطآن', 'أخطاء', 'خطأً')} بانتظار العلاج</div><div class="s">في أفكار درستها؛ لكل خطأ إجراء علاجي وسؤال تحقق جديد</div></div><span class="faint">${I.next}</span></div>` : ''}${df ? `<div class="li tap" data-act="tab" data-t="errors"><span class="faint">${I.clock}</span><div class="grow"><div class="t small">${plural(df, 'خطأ واحد مؤجل', 'خطآن مؤجلان', 'أخطاء مؤجلة', 'خطأً مؤجلًا')} إلى ${df === 1 ? 'درسه' : df === 2 ? 'درسيهما' : 'دروسها'}</div><div class="s">من التشخيص في موضوعات لم تصل إليها؛ تُعالج عند دراسة دروسها</div></div><span class="faint">${I.next}</span></div>` : ''}</div>` : `<p class="muted small">لا مراجعات مستحقة اليوم.</p>`;
   // domains
   const cov = coverage();
   const domHTML = C.domains.map(d => {
@@ -3403,7 +3922,11 @@ VIEWS.home = () => {
   const trend = tests.length >= 2 ? sparkline(tests.map(t => t.newOk / t.newN)) : '';
   const testsHTML = last ? `<div class="stack">${trend}<div class="row small"><span class="grow">آخر نشاط: <b>${esc(last.title)}</b> · ${AR(last.ok)}/${AR(last.scored)} (${PCT(last.scored ? last.ok / last.scored : 0)})${last.newN ? ` · الجديدة ${PCT(last.newOk / last.newN)}` : ''}</span>${goBtn('التقرير', 'results', { id: last.id }, 'btn quiet sm')}</div><p class="tiny faint">النسب أداء تدريبي على أسئلة جديدة، وليست تنبؤًا بدرجتك الرسمية.</p></div>` : `<p class="muted small">لم تُجرِ اختبارًا بعد.</p>`;
   const wa = weightedAccuracy();
-  return `<div class="stack-l">${engSafe(engStripHTML)}${resume}${hero}${engSafe(courseHomeHTML)}${engSafe(stratDayHTML)}${engSafe(() => engChalHTML(false))}${engSafe(engBadgesRowHTML)}
+  /* shown once after the update that added them */
+  const news = p.onboarded && S.diag.done && (p.seenV || 0) < 8 ? `<section class="card stack home-new"><div class="row"><span class="gd-ic">${I.spark}</span><b class="grow">جديد في إتقان</b></div>
+      <ul class="small" style="margin:0;padding-inline-start:20px;line-height:1.9"><li><b>استرجاع سريع</b> قبل الدرس: سؤال قصير عن كل فكرة درستها قبل يوم أو أكثر، ثم تتباعد مواعيده.</li><li><b>تصحيح أسئلة الخطوات</b> التي أخطأت فيها، قبل مغادرة الفكرة وقبل اختبار الدرس.</li><li><b>«لم تتضح الخطوة؟»</b> تحت كل خطوة: أسلوب آخر، أو مثال آخر، أو سؤال المساعد.</li><li><b>ملخص لكل درس</b> يُنزَّل للطباعة، و<b>مفاتيح حفظ</b> ${memoScopeText()}.</li><li>أخطاء التشخيص في دروس لم تصل إليها <b>أُجّلت إلى دروسها</b>، فصار دفتر الأخطاء لما درسته فقط.</li></ul>
+      <div><button class="btn ghost sm" data-act="seenNew">حسنًا</button></div></section>` : '';
+  return `<div class="stack-l">${engSafe(engStripHTML)}${resume}${hero}${news}${engSafe(courseHomeHTML)}${engSafe(stratDayHTML)}${engSafe(() => engChalHTML(false))}${engSafe(engBadgesRowHTML)}
     <div class="kpis">
       <div class="kpi"><b class="num">${wa.acc == null ? '—' : PCT(wa.acc)}</b><span>دقة موزونة${wa.acc != null && wa.share < 1 ? ` · تغطي ${PCT(wa.share)} من الوزن` : ' بالأوزان الرسمية'}</span></div>
       <div class="kpi"><b class="num">${AR(C.ideas.filter(i => ['initial', 'proven', 'due'].includes(ideaStatus(i.id).key)).length)}/${AR(C.ideas.length)}</b><span>أفكار متقنة من المتاحة</span></div>
@@ -3425,6 +3948,7 @@ function sparkline(vals) {
   const goal = y(S.rules.acc);
   return `<svg class="spark" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none" role="img" aria-label="اتجاه الدقة في آخر ${AR(n)} اختبارات"><line x1="${pd}" x2="${w - pd}" y1="${goal}" y2="${goal}" stroke="var(--ok)" stroke-dasharray="4 4" stroke-width="1"/><polyline points="${pd},${h - pd} ${pts} ${x(n - 1)},${h - pd}" fill="var(--accent-soft)" stroke="none"/><polyline points="${pts}" fill="none" stroke="var(--accent)" stroke-width="2"/><circle cx="${x(n - 1)}" cy="${y(vals[n - 1])}" r="3.5" fill="var(--accent)"/></svg><div class="tiny faint">الخط المتقطع هدف الدقة ${PCT(S.rules.acc)}</div>`;
 }
+ACT.seenNew = () => { S.profile.seenV = 8; Store.touch(); render(); };
 ACT.replan = () => { planToday(true); render(); toast('أُعيد بناء خطة اليوم حسب نتائجك الأخيرة'); };
 ACT.startStep = d => {
   const s = S.today.steps[Number(d.i)]; if (!s) return;
@@ -3434,6 +3958,7 @@ ACT.startStep = d => {
 function runStep(s) {
   if (s.k === 'diag') return startDiag();
   if (s.k === 'review') return startReview(s.ideas);
+  if (s.k === 'keep') { if (!keepStart({ mode: 'due', src: 'plan', ret: { v: 'home', p: {} } })) { markPlanDone('keep'); render(); } return; }
   if (s.k === 'remedy') return startRemedy(s.qids);
   if (s.k === 'followup') return startFollowup();
   if (s.k === 'course') return go('chapter', { id: s.lesson });
@@ -3731,7 +4256,6 @@ function cardsView(lessonId, ci) {
   <div class="btns" style="justify-content:space-between">${i > 0 ? `<button class="btn ghost" data-act="go" data-v="idea" data-p='${esc(JSON.stringify({ id: idea.id, step: 'cards', lesson: lessonId, ci: i - 1 }))}'>${I.back}السابقة</button>` : '<span></span>'}${i < ideas.length - 1 ? `<button class="btn" data-act="go" data-v="idea" data-p='${esc(JSON.stringify({ id: ideas[i + 1].id, step: 'cards', lesson: lessonId, ci: i + 1 }))}'>التالية${I.next}</button>` : goBtn('العودة للدرس', 'lesson', { id: lessonId }, 'btn')}</div></div>`;
 }
 ACT.cardRate = d => { S.cards[d.id] = { v: d.v, t: now() }; Store.touch(); render(); };
-
 /* ---- 05_views_b.js ---- */
 /* ================= views: runner, results, practice, errors, more ================= */
 VIEWS.run = () => {
@@ -3809,7 +4333,8 @@ VIEWS.practice = () => {
   ${S.current ? `<div class="card row"><span style="color:var(--accent)">${I.timer}</span><span class="grow"><b>جارٍ:</b> ${esc(S.current.title)}</span><button class="btn sm" data-act="resume">استئناف</button></div>` : ''}
   ${engSafe(() => engChalHTML(true))}
   <section class="sec"><div class="sec-h"><h2 class="h2">حسب خطتك</h2></div><div class="list">
-    ${card(I.play, 'جلسة اليوم', 'مراجعات مستحقة، علاج أخطاء، ثم تعلم جديد', `<button class="btn sm" data-act="tab" data-t="home">افتح الخطة</button>`)}
+    ${card(I.play, 'جلسة اليوم', 'استرجاع ما درست، علاج أخطائه، ثم درس المقرر', `<button class="btn sm" data-act="tab" data-t="home">افتح الخطة</button>`)}
+    ${card(I.refresh, 'الاسترجاع السريع', (n => n ? `حان موعد استرجاع ${ideasGen(n)} مما درست` : 'سؤال قصير عن كل فكرة درستها، في مواعيد متباعدة')(engSafe(() => keepDue().length) || 0), `<button class="btn ghost sm" data-act="keepHub">افتح</button>`, studiedIdeas.length > 0, 'ادرس فكرة أولًا')}
     ${card(I.book, 'الشرح الموجّه للدروس', 'قصة واحدة لكل درس: شرح وفحص وطريقة ذهنية وتدريب، بحسب تشخيصك', goBtn('افتح', 'guides', {}))}
     ${card(I.note, 'علاج الأخطاء', `${AR(dueErrors().length)} مستحقة الآن`, `<button class="btn ghost sm" data-act="tab" data-t="errors">الدفتر</button>`)}
     ${card(I.clock, 'المراجعة المتباعدة', `${AR(dueIdeas().length)} فكرة حان موعدها`, `<button class="btn ghost sm" data-act="reviewNow">ابدأ</button>`, dueIdeas().length > 0, 'لا شيء مستحق')}
@@ -3886,7 +4411,8 @@ ACT.startSim = d => {
 };
 /* ---------- errors ---------- */
 VIEWS.errors = ({ cause }) => {
-  const all = errorList();
+  const every = errorList(), deferred = every.filter(errDeferred);
+  const all = every.filter(e => !errDeferred(e));
   const list = cause ? all.filter(e => (e.cause || 'none') === cause) : all;
   const counts = {}; all.forEach(e => { const k = e.cause || 'none'; counts[k] = (counts[k] || 0) + 1; });
   const due = actionableErrors();
@@ -3902,10 +4428,19 @@ VIEWS.errors = ({ cause }) => {
       ${!canFix ? '<div class="small faint">سيُتاح سؤال تحقق عند إضافة دروس أو أسئلة لهذا المؤشر. حتى ذلك الحين: راجع التفسير الكامل، ولن يُحتسب إعادة السؤال نفسه علاجًا.</div>' : ''}
       <div class="btns">${canFix ? `<button class="btn sm" data-act="remedyOne" data-q="${q.id}">${I.refresh}عالج الآن</button>` : ''}${idea ? goBtn('راجع الشرح', 'idea', { id: idea.id, step: e.cause === 'mix' ? 2 : 0 }) : ''}<button class="btn quiet sm" data-act="showErr" data-q="${q.id}">التفسير الكامل</button></div></div>`;
   }).join('');
-  return `<div class="stack-l"><div class="stack"><p class="eyebrow">دفتر الأخطاء</p><h1 class="h1">كل خطأ له سبب وعلاج ومراجعة لاحقة</h1><p class="muted small">يضم الإجابات الخاطئة، والصحيحة التي اخترتها بتخمين أو تردد. الأولوية للأخطاء المتكررة ثم المفاهيم الأساسية التي تعوق غيرها.</p></div>
+  /* errors on ideas not reached in the course, grouped by lesson in course order */
+  const byLesson = {}; for (const e of deferred) { const lid = errWaitsFor(e); if (lid) (byLesson[lid] = byLesson[lid] || []).push(e); }
+  const order = courseIndex().list.map(x => x.lid).filter(lid => byLesson[lid]);
+  const defHTML = deferred.length ? `<details class="kx er-def" ${all.length ? '' : 'open'}><summary><b>مؤجلة إلى دروسها</b><span class="chip num">${AR(deferred.length)}</span></summary>
+      <div class="stack kx-b"><p class="small muted">أخطاء وإجابات مترددة من التشخيص في موضوعات لم تصل إليها في المقرر. علاجها أن تدرس درسها؛ وبعد دراسة الفكرة يعود عنها سؤال تحقق جديد في اليوم التالي. لا تدخل خطة اليوم ولا عدّاد الأخطاء قبل ذلك.</p>
+      <div class="list">${order.map(lid => { const l = IX.lesson.get(lid), ce = courseIndex().byId[lid], es = byLesson[lid], op = courseOpen(lid); return `<div class="er-row"><div class="row"><span class="chip num">${AR(es.length)}</span><div class="grow"><div class="t small">${esc(l.title)}</div><div class="s">الوحدة ${AR(ce.unit.n)}: ${esc(ce.unit.title)}${op ? ' · الدرس مفتوح' : ''}</div></div></div><div class="btns">${op ? goBtn('ادرس الدرس', 'chapter', { id: lid }, 'btn ghost sm') : ''}<button class="btn quiet sm" data-act="errNow" data-lesson="${lid}">عالجها الآن دون انتظار</button></div></div>`; }).join('')}</div></div></details>` : '';
+  return `<div class="stack-l"><div class="stack"><p class="eyebrow">دفتر الأخطاء</p><h1 class="h1">كل خطأ له سبب وعلاج ومراجعة لاحقة</h1><p class="muted small">يضم الإجابات الخاطئة، والصحيحة التي اخترتها بتخمين أو تردد، في الأفكار التي درستها. الأولوية للأخطاء المتكررة ثم المفاهيم الأساسية التي تعوق غيرها.</p></div>
   ${due.length ? `<button class="btn big" data-act="remedyDue">${I.play}عالج المستحق الآن (${AR(due.length)})</button>` : ''}
-  ${all.length ? chips + `<div class="stack">${items || '<p class="muted">لا أخطاء بهذا السبب.</p>'}</div>` : `<div class="empty">${I.note}<p>لا أخطاء مسجلة بعد. ستظهر هنا مع أسبابها وعلاجها.</p></div>`}</div>`;
+  ${all.length ? chips + `<div class="stack">${items || '<p class="muted">لا أخطاء بهذا السبب.</p>'}</div>` : deferred.length ? notice('good', 'لا أخطاء مفتوحة في الأفكار التي درستها.') : `<div class="empty">${I.note}<p>لا أخطاء مسجلة بعد. ستظهر هنا مع أسبابها وعلاجها.</p></div>`}
+  ${defHTML}</div>`;
 };
+/* pull the waiting errors of one lesson into the notebook now */
+ACT.errNow = d => { let n = 0; for (const e of deferredErrors()) { if (errWaitsFor(e) === d.lesson) { e.now = 1; if ((e.due || 0) > now()) e.due = now(); n++; } } Store.touch(); render(); toast(n ? 'نُقلت إلى الدفتر وتدخل خطة اليوم' : 'لا أخطاء مؤجلة لهذا الدرس'); };
 ACT.remedyDue = () => startRemedy(actionableErrors().slice(0, 6).map(e => e.q));
 ACT.showErr = d => { const q = getQ(d.q); const e = S.errors[d.q]; openSheet(`<div class="row"><p class="h2 grow">التفسير الكامل</p><button class="btn ghost sm" data-act="closeSheet">إغلاق</button></div>${questionHTML(q, { chosen: e ? e.chosen : null, showResult: true })}${feedbackHTML(q, e ? e.chosen : null, { allowVerify: false, allowCause: false })}`); };
 /* ---------- more ---------- */
@@ -3922,6 +4457,7 @@ function moreExplore() {
   <div class="list">
     <div class="li tap" data-act="go" data-v="map" data-p='{"mode":"tree"}'><span class="gd-ic">${I.grid}</span><div class="grow"><div class="t">خريطة المنهج والتغطية</div><div class="s">المجال ← المعيار ← المؤشر ← الدرس، ومصفوفة التغطية ودليل الحالات</div></div><span class="faint">${I.next}</span></div>
     <div class="li tap" data-act="go" data-v="map" data-p='{"mode":"path"}'><span class="gd-ic">${I.path}</span><div class="grow"><div class="t">رحلة الدروس (العرض القديم)</div><div class="s">الترتيب بالمراحل الخمس حسب المتطلبات السابقة</div></div><span class="faint">${I.next}</span></div>
+    <div class="li tap" data-act="go" data-v="summaries" data-p='{}'><span class="gd-ic">${I.layers}</span><div class="grow"><div class="t">ملخصات الدروس</div><div class="s">ملخص لكل درس في صفحة، للمراجعة السريعة والطباعة</div></div><span class="faint">${I.next}</span></div>
     <div class="li tap" data-act="go" data-v="guides" data-p='{}'><span class="gd-ic">${I.book}</span><div class="grow"><div class="t">الشرح الموجّه بقصة</div><div class="s">شرح كل درس مُخيَّطًا بموقف مدرسي متصل؛ أسلوب بديل لمن يفضّل القصة</div></div><span class="faint">${I.next}</span></div>
     <div class="li tap" data-act="go" data-v="idea" data-p='${esc(JSON.stringify({ id: ideasOf(C.lessons[0].id)[0].id, step: 'cards', lesson: C.lessons[0].id }))}'><span class="gd-ic">${I.layers}</span><div class="grow"><div class="t">بطاقات المراجعة</div><div class="s">بطاقات كل درس للاسترجاع السريع</div></div><span class="faint">${I.next}</span></div>
   </div>`;
@@ -3934,7 +4470,7 @@ function moreReport() {
   const stdTbl = C.standards.map(s => { const e = stdEstimate(s.id); return `<tr><td>${AR(s.num)}. ${esc(s.name)}</td><td class="c">${AR(s.weight)}٪</td><td class="c">${AR(e.total)}</td><td class="c">${e.enough ? PCT(e.acc) : e.n ? 'غير كافية' : '—'}</td></tr>`; }).join('');
   const weak = topWeak();
   return `<div class="stack"><p class="eyebrow">تقرير النتائج</p><h1 class="h1">ما أتقنته، وما يحتاج عملًا، وماذا تفعل بعده</h1></div>
-  <div class="kpis"><div class="kpi"><b class="num">${AR(nw.length)}</b><span>إجابة على أسئلة جديدة · دقتها ${nw.length ? PCT(nw.filter(a => a.ok).length / nw.length) : '—'}</span></div><div class="kpi"><b class="num">${AR(rp.length)}</b><span>إجابة معادة · لا تُحتسب تقدمًا</span></div><div class="kpi"><b class="num">${AR(Object.values(S.errors).filter(e => e.status !== 'closed').length)}</b><span>خطأ مفتوح أو قيد التثبيت</span></div></div>
+  <div class="kpis"><div class="kpi"><b class="num">${AR(nw.length)}</b><span>إجابة على أسئلة جديدة · دقتها ${nw.length ? PCT(nw.filter(a => a.ok).length / nw.length) : '—'}</span></div><div class="kpi"><b class="num">${AR(rp.length)}</b><span>إجابة معادة · لا تُحتسب تقدمًا</span></div><div class="kpi"><b class="num">${AR(errorList(e => !errDeferred(e)).length)}</b><span>خطأ مفتوح أو قيد التثبيت في ما درست${(n => n ? ` · ${AR(n)} مؤجلة إلى دروسها` : '')(deferredErrors().length)}</span></div></div>
   <section class="sec"><div class="sec-h"><h2 class="h2">ما أتقنته</h2></div>${mastered.length ? `<div class="list">${mastered.map(i => `<div class="li">${stChip(ideaStatus(i.id).key)}<div class="grow"><div class="t">${esc(i.title)}</div><div class="s">${evidenceText(ideaStatus(i.id))}</div></div></div>`).join('')}</div>` : '<p class="muted small">لا أفكار متقنة بعد. الإتقان يُبنى على أسئلة جديدة في جلستين.</p>'}</section>
   <section class="sec"><div class="sec-h"><h2 class="h2">قيد التعلم</h2></div>${learning.length ? `<div class="list">${learning.map(i => `<div class="li">${stChip(ideaStatus(i.id).key)}<div class="grow"><div class="t">${esc(i.title)}</div><div class="s">${evidenceText(ideaStatus(i.id))}</div></div></div>`).join('')}</div>` : '<p class="muted small">لا شيء قيد التعلم.</p>'}</section>
   <section class="sec"><div class="sec-h"><h2 class="h2">ما ينبغي فعله بعده</h2></div><div class="list">${weak.map(w => `<div class="li"><span style="color:var(--warn)">${I.alert}</span><span class="grow small">${esc(w.title)}</span></div>`).join('') || '<p class="muted small">اتبع خطة اليوم في الرئيسية.</p>'}</div></section>
@@ -3962,6 +4498,7 @@ function moreSources() {
     <tr><td>مؤشرات لها درس مكتمل</td><td class="c">${AR(cov.lessonReady.size)} / ${AR(C.indicators.length)}</td></tr>
     <tr><td>مؤشرات لها سؤال معتمد واحد على الأقل</td><td class="c">${AR(Object.keys(cov.qInd).length)} / ${AR(C.indicators.length)}</td></tr>
     <tr><td>مؤشرات بلا شرح ولا أسئلة</td><td class="c">${AR(C.indicators.filter(i => !cov.lessonReady.has(i.id) && !cov.qInd[i.id]).length)}</td></tr>
+    <tr><td>أفكار لها «مفتاح حفظ» مكتوب من مادتها${(m => m.have < m.total ? ' (البقية ناقصة)' : '')(memoCoverage())}</td><td class="c">${(m => `${AR(m.have)} / ${AR(m.total)}`)(memoCoverage())}</td></tr>
   </tbody></table></div></section>
   <section class="sec"><div class="sec-h"><h2 class="h2">تحتاج مراجعة (${AR(needs.length)})</h2><span class="small faint">مستبعدة من قياس الإتقان</span></div>${needs.length ? `<div class="stack">${needs.map(q => `<div class="card stack"><div class="row">${srcBadge(q)}<span class="tiny faint">${esc(q.officialNo || q.id)} · المؤشر ${esc(q.ind)}</span></div><div class="small read" style="font-size:15px">${esc(q.stem.slice(0, 200))}${q.stem.length > 200 ? '…' : ''}</div>${q.reviewNote ? `<div class="small"><b>سبب المراجعة:</b> ${esc(q.reviewNote)}</div>` : ''}${S.flags[q.id] ? `<div class="small"><b>بلاغك:</b> ${esc(S.flags[q.id].note || 'بلا ملاحظة')}</div>` : ''}<div class="btns"><button class="btn ghost sm" data-act="showErr" data-q="${q.id}">اعرض السؤال والتفسير</button><button class="btn ghost sm" data-act="reviewQ" data-q="${q.id}" data-v="approved">اعتمده بعد المراجعة</button>${S.flags[q.id] ? `<button class="btn quiet sm" data-act="unflag" data-q="${q.id}">سحب البلاغ</button>` : ''}${q.pool === 'imported' ? `<button class="btn quiet sm" data-act="editImp" data-q="${q.id}">صحّح الإجابة</button>` : ''}</div></div>`).join('')}</div>` : '<p class="muted small">لا شيء.</p>'}</section>
   <section class="sec"><div class="sec-h"><h2 class="h2">سجل المصادر (${AR(C.sources.length)})</h2></div><div class="stack">${C.sources.map(s => { const k = kindL[s.kind] || ['', '']; const ex = exL[s.extraction.status] || ['', '']; return `<div class="card stack"><div class="row"><span class="chip ${k[1]}">${k[0]}</span><span class="chip ${ex[1]}">${ex[0]}</span></div><b>${esc(s.title)}</b><div class="tiny faint">${esc(s.issuer)} · ${esc(s.version)}${s.pages ? ' · ' + AR(s.pages) + ' صفحة' : ''} · ${esc(s.file)}</div><div class="small">${esc(s.extraction.note)}</div>${s.provides.length ? `<div class="small"><b>استُخدم منه:</b> ${s.provides.map(esc).join('؛ ')}</div>` : ''}${s.issues.length ? `<div class="small" style="color:var(--pen)"><b>ملاحظات:</b> ${s.issues.map(esc).join(' ')}</div>` : ''}</div>`; }).join('')}</div></section>
@@ -4055,7 +4592,6 @@ function moreKeys() {
   ${chips}
   ${by.length ? by.map(g => `<details class="kx" ${f !== 'all' ? 'open' : ''}><summary><b>${esc(g.l.title)}</b><span class="chip num">${AR(g.items.length)}</span></summary><div class="list">${g.items.map(x => keyRowHTML(x.k, x.idea)).join('')}</div></details>`).join('') : '<p class="muted small">لا عناصر بهذا الحكم.</p>'}`;
 }
-
 /* ---- 06_ai_import.js ---- */
 /* ================= assistant (sample capability) ================= */
 const AI_RULES = `أنت «مساعد إتقان»، مساعد تعليمي داخل منصة شخصية لمعلم أحياء سعودي في المرحلة الثانوية يستعد للاختبار التربوي العام للرخصة المهنية (هيئة تقويم التعليم والتدريب).
@@ -4293,7 +4829,6 @@ ACT.pasteSave = async () => {
   try { if (assets) { const up = await assets.upload(new Blob([body], { type: 'text/plain' }), { type: 'text/plain' }); rec.assetId = up.id; } else if (body.length < 60000) rec.text = body; else { toast('النص طويل؛ أضفه إلى مشروع Claude'); return; } } catch (e) { if (body.length < 60000) rec.text = body; }
   await Store.saveSource(rec); render(); toast('حُفظ النص في قائمة «بانتظار المعالجة»');
 };
-
 /* ---- 06b_offline.js ---- */
 /* ================= offline: service worker, install manifest, connectivity, downloadable offline copy ================= */
 /* The page is one self-contained file: content, code and the learner's local mirror (localStorage) all live in the browser.
@@ -4414,7 +4949,6 @@ function offlineSeedLoad() {
     invalidate(); Store.mirror();
   } catch (e) { }
 }
-
 /* ---- 07_boot.js ---- */
 /* ================= boot ================= */
 (function boot() {
@@ -4426,15 +4960,15 @@ function offlineSeedLoad() {
   Store.init().then(() => { invalidate(); render(); });
   AI.init();
   try { offlineInit(); } catch (e) { }
+  if (ITQAN_STALE) setTimeout(() => toast('لم يكتمل تنزيل التحديث بعد؛ تعمل الآن بالمحتوى السابق، ويكتمل التحديث عند فتحها وأنت متصل.'), 800);
   document.addEventListener('visibilitychange', () => {
     if (document.visibilityState === 'hidden') { if (S.current && UI.view === 'run') stampTime(); Store.touch(); Store.flush(); }
     else if (S.current) { S.current.qStart = now(); }   /* time away from the page is not counted as answer time */
   });
-  if (location.hash === '#test') window.__itqan = { S: () => S, LOG: () => LOG, IMP: () => IMP, ideaStatus, lessonStatus, checkMastery, getQ, render, go, planToday, evidence, stdEstimate, coverage, dueIdeas, dueErrors, Store, UI, C, diagramHTML, explainHTML, compareHTML, pickQuestions, strat: { list: () => STRAT.map(s => s.id), stats: stratStats, ofDay: () => (stratOfDay() || {}).id, mexpr }, guide: { cards: lid => guideCards(IX.lesson.get(lid)).map(c => ({ t: c.t, idea: c.idea ? c.idea.id : null })), plan: (lid, ideaId) => { const l = IX.lesson.get(lid); return guidePracticePlan(IX.idea.get(ideaId), guideLevel(l).intensity).qs.map(q => ({ id: q.id, level: q.level })); }, next: () => { const n = guideNext(); return n && { id: n.l.id, why: n.why }; }, level: lid => guideLevel(IX.lesson.get(lid)).key, order: () => guideOrder().map(l => l.id) }, course: { cards: lid => chapterCards(IX.lesson.get(lid)).map(c => ({ t: c.t, idea: c.idea ? c.idea.id : null, k: c.k })), next: () => { const n = courseNext(); return n && { id: n.e.lid, why: n.why, resume: !!n.resume }; }, open: courseOpen, done: lid => courseLessonDone(lid), order: () => courseIndex().list.map(e => e.lid), gate: lid => gateItems(IX.lesson.get(lid)).qs.map(q => q.id), bank: lid => { const b = lessonBank(IX.lesson.get(lid)); return { total: b.total, fresh: b.fresh, solved: b.solved, ideas: b.ideas.map(g => ({ id: g.idea.id, total: g.total, reserved: g.reserved, src: Object.fromEntries(Object.entries(g.src).map(([k, e]) => [k, e.n])) })) }; }, progress: courseProgress } };
+  if (location.hash === '#test') window.__itqan = { S: () => S, LOG: () => LOG, IMP: () => IMP, ideaStatus, lessonStatus, checkMastery, getQ, render, go, planToday, evidence, stdEstimate, coverage, dueIdeas, dueErrors, Store, UI, C, diagramHTML, explainHTML, compareHTML, pickQuestions, strat: { list: () => STRAT.map(s => s.id), stats: stratStats, ofDay: () => (stratOfDay() || {}).id, mexpr }, guide: { cards: lid => guideCards(IX.lesson.get(lid)).map(c => ({ t: c.t, idea: c.idea ? c.idea.id : null })), plan: (lid, ideaId) => { const l = IX.lesson.get(lid); return guidePracticePlan(IX.idea.get(ideaId), guideLevel(l).intensity).qs.map(q => ({ id: q.id, level: q.level })); }, next: () => { const n = guideNext(); return n && { id: n.l.id, why: n.why }; }, level: lid => guideLevel(IX.lesson.get(lid)).key, order: () => guideOrder().map(l => l.id) }, course: { cards: lid => chapterCards(IX.lesson.get(lid)).map(c => ({ t: c.t, idea: c.idea ? c.idea.id : null, k: c.k })), next: () => { const n = courseNext(); return n && { id: n.e.lid, why: n.why, resume: !!n.resume }; }, open: courseOpen, done: lid => courseLessonDone(lid), order: () => courseIndex().list.map(e => e.lid), gate: lid => gateItems(IX.lesson.get(lid)).qs.map(q => q.id), bank: lid => { const b = lessonBank(IX.lesson.get(lid)); return { total: b.total, fresh: b.fresh, solved: b.solved, ideas: b.ideas.map(g => ({ id: g.idea.id, total: g.total, reserved: g.reserved, src: Object.fromEntries(Object.entries(g.src).map(([k, e]) => [k, e.n])) })) }; }, progress: courseProgress }, keep: { due: at => keepDue(at).map(d => d.id), weak: ids => weakChecks(ids).map(w => w.idea.id + ':' + w.k), entry: id => { const e = keepEntry(id); return e && JSON.parse(JSON.stringify(e)); }, session: () => KEEP && { src: KEEP.src, mode: KEEP.mode, i: KEEP.i, done: KEEP.done, items: KEEP.items.map(x => ({ type: x.type, idea: x.idea.id, k: x.k, ok: x.ok, answerPos: x.type === 'check' ? x.ord.indexOf(x.q.answer) : null })) }, start: keepStart, ready: lid => { const R = lessonReadiness(IX.lesson.get(lid)); return { studied: R.studied, weak: R.weak.length, evN: R.evN, evOk: R.evOk, ready: R.ready }; } }, errors: { deferred: () => deferredErrors().map(e => e.q), due: () => dueErrors().map(e => e.q), actionable: () => actionableErrors().map(e => e.q) }, memo: memoCoverage };
   let lastDay = todayKey();
   setInterval(() => { if (todayKey() !== lastDay) { lastDay = todayKey(); S.today = null; render(); } }, 60e3);
 })();
-
 /* ---- 08_engage.js ---- */
 /* ================= engage: streak, effort points, levels, badges, quick challenges, journey, session flow ================= */
 /* The motivation and flow layer on top of the learning engine.
@@ -4529,11 +5063,11 @@ function engStats() {
   }
   fixT.sort((x, y) => x - y);
   const chal = Object.values(S.chal || {}).filter(c => c && c.t);
-  for (const c of chal) D(dayKey(c.t)).pts += PTS.chal;
+  for (const c of chal) { const d = D(dayKey(c.t)); d.pts += PTS.chal; if (c.k === 'keep') d.rr++; }   /* a finished quick-retrieval round keeps the day active, like a review */
   const matchClean = chal.filter(c => c.k === 'match' && c.err === 0).map(c => c.t).sort((x, y) => x - y)[0] || 0;
   const parts = [['إجابة صحيحة على سؤال جديد', okT.length, PTS.ok], ['إجابة غير صحيحة على سؤال جديد (محاولة)', badN, PTS.bad], ['فكرة درستها حتى الخلاصة', stT.length, PTS.studied], ['إتقان أولي', initT.length, PTS.initial], ['إتقان مثبت', provT.length, PTS.proven], ['مراجعة متباعدة ناجحة', revT.length, PTS.review], ['خطأ أُغلق بعد التثبيت', closedN, PTS.closed], ['تحدٍّ سريع مكتمل', chal.length, PTS.chal]];
   const pts = sum(parts.map(p => p[1] * p[2]));
-  /* streak: a day is active with >= 5 new answers, or an idea studied, or a finished review / remedy run.
+  /* streak: a day is active with >= 5 new answers, or an idea studied, or a finished review / remedy run or quick-retrieval round.
      Rest days in the plan (S.profile.days) neither break nor extend it. */
   const isActive = k => { const d = day[k]; return !!d && (d.nw >= 5 || d.st >= 1 || d.rr >= 1); };
   const studyDay = t => (S.profile.days || []).includes(new Date(t).getDay());
@@ -4693,7 +5227,7 @@ function engCheck() {
   for (const b of BADGES) { if (S.badges[b.id]) continue; const t = b.t(st); if (t) { S.badges[b.id] = Math.min(t, now()); fresh.push(b); dirty = true; } }
   const lv = engLevel(st.pts), up = ENG.lastLevel != null && lv.i > ENG.lastLevel; ENG.lastLevel = lv.i;
   const t = S.today, isToday = !!(t && t.date === todayKey() && t.steps && t.steps.length);
-  const open = isToday && t.steps.some((s, i) => !t.done.includes(i));
+  const open = isToday && planNext(t) >= 0;   /* an optional step («إن بقي وقت») never keeps the day open */
   const finished = ENG.planOpen === true && isToday && !open;
   ENG.planOpen = open;
   if (UI.view !== 'run' && !(UI.view === 'sprint' && SPR && SPR.phase === 'run')) ENG.mSnap = engMasterySnap();
@@ -4757,11 +5291,11 @@ function engBadgesRowHTML() {
 function engSessionHTML(opt) {
   const t = S.today && S.today.date === todayKey() ? S.today : planToday();
   if (!t || !t.steps || !t.steps.length) return '';
-  const n = t.steps.length, nextI = t.steps.findIndex((s, i) => !t.done.includes(i));
+  const core = t.steps.map((s, i) => i).filter(i => !t.steps[i].opt), n = core.length, nextI = planNext(t);
   if (nextI < 0) return engDoneCardHTML(opt && opt.inner);
   const s = t.steps[nextI];
   return `<section class="eng-next eng-anim${opt && opt.compact ? ' compact' : ''}" aria-label="جلسة اليوم">
-    <div class="en-h"><span class="eyebrow">جلسة اليوم</span><span class="en-dots" aria-hidden="true">${t.steps.map((x, i) => `<i class="${t.done.includes(i) ? 'd' : i === nextI ? 'c' : ''}"></i>`).join('')}</span><span class="en-step num">الخطوة ${AR(nextI + 1)} من ${AR(n)}</span></div>
+    <div class="en-h"><span class="eyebrow">جلسة اليوم</span><span class="en-dots" aria-hidden="true">${core.map(i => `<i class="${t.done.includes(i) ? 'd' : i === nextI ? 'c' : ''}"></i>`).join('')}</span><span class="en-step num">الخطوة ${AR(core.indexOf(nextI) + 1)} من ${AR(n)}</span></div>
     <button class="btn big en-btn" data-act="engNext" data-i="${nextI}">${I.play}<span class="en-tx"><span class="en-k">التالي في جلسة اليوم:</span><span class="en-t">${esc(s.title)}</span></span></button>
     <p class="tiny faint en-why">لماذا؟ ${esc(s.why)} · نحو ${AR(Math.round(s.min))} د</p></section>`;
 }
